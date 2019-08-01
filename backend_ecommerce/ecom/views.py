@@ -6,12 +6,12 @@ from .forms import ContactForm, LoginForm, RegisterForm
 
 def home_page(request):
     context = {
-        "title":"Hello World!",
+        "title":"Hello there!",
         "content":" Welcome to the homepage.",
 
     }
     if request.user.is_authenticated():
-        context["premium_content"] = "YEAHHHHHH"
+        context["premium_content"] = "Premium content"
     return render(request, "home_page.html", context)
 
 def about_page(request):
