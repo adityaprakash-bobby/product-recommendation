@@ -13,3 +13,9 @@ class Product(models.Model):
     sna3            = models.CharField(max_length=30)
     service_type    = models.IntegerField()
     price           = models.DecimalField(decimal_places=2, max_digits=20)
+
+    def __str__(self):
+        return self.title
+
+    def __unicode__(self):
+        return self.title
