@@ -19,7 +19,13 @@ def upload_image_path(instance, filename):
             final_filename=final_filename
             )
 
-# Create your models here.
+class ProductManager(models.Manager):
+    def get_by_id(self, id):
+        qs = self.get_queryset().filter(id=id) # Product.objects == self.get_queryset()
+        if qs.count() == 1:
+            return qs.first()
+        return None
+
 class Product(models.Model):
     title           = models.CharField(max_length=120)
     customer_type   = models.IntegerField()
@@ -33,6 +39,8 @@ class Product(models.Model):
     service_type    = models.IntegerField()
     price           = models.DecimalField(decimal_places=2, max_digits=20)
     image           = models.ImageField(upload_to=upload_image_path, null=True, blank=True)
+
+    objects = ProductManager()
 
     def __str__(self):
         return self.title
