@@ -75,3 +75,22 @@ def product_detail_view(request, pk=None, *args, **kwargs):
         'object': instance
     }
     return render(request, "products/detail.html", context)
+
+class ProductDetailSlugView(DetailView):
+    queryset = Product.objects.all()
+    template_name = "products/detail.html"
+
+    def get_object(self, *args, **kwargs):
+        request = self.request
+        slug = self.kwargs.get('slug')
+        #instance = get_object_or_404(Product, slug=slug, active=True)
+        try:
+            instance = Product.objects.get(slug=slug, active=True)
+        except Product.DoesNotExist:
+            raise Http404("Product not found")
+        except Product.MultipleObjectsReturned:
+            qs = Product.objects.filter(slug=slug, active=True)
+            instance = qs.first()
+        except:
+            raise Http404("Caught exception!")
+        return instance
