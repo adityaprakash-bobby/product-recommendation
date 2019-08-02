@@ -20,8 +20,6 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 from .views import home_page, about_page, contact_page, login_page, register_page
-from carts.views import cart_home
-
 
 urlpatterns = [
     url(r'^$', home_page, name='home'),
@@ -31,14 +29,7 @@ urlpatterns = [
     url(r'^register/$', register_page, name='register'),
     url(r'^products/', include("products.urls", namespace='products')),
     url(r'^search/', include("search.urls", namespace='search')),
-    url(r'^cart/$', cart_home, name='cart'),
-    # url(r'^featured/$', ProductFeaturedListView.as_view()),
-    # url(r'^featured/(?P<pk>\d+)/$', ProductFeaturedDetailView.as_view()),
-    # url(r'^products/$', ProductListView.as_view()),
-    # url(r'^products-fbv/$', product_list_view),
-    # url(r'^products/(?P<pk>\d+)/$', ProductDetailView.as_view()),
-    # url(r'^products/(?P<slug>[\w-]+)/$', ProductDetailSlugView.as_view()),
-    # url(r'^products-fbv/(?P<pk>\d+)/$', product_detail_view),
+    url(r'^cart/', include( "carts.urls", namespace='cart')),
     url(r'^admin/', admin.site.urls),
 ]
 
