@@ -21,7 +21,7 @@ from django.contrib import admin
 from django.contrib.auth.views import LogoutView
 
 from .views import home_page, about_page, contact_page
-from accounts.views import login_page, register_page
+from accounts.views import login_page, register_page, guest_register_view
 
 urlpatterns = [
     url(r'^$', home_page, name='home'),
@@ -29,6 +29,7 @@ urlpatterns = [
     url(r'^contact/$', contact_page, name='contact'),
     url(r'^login/$', login_page, name='login'),
     url(r'^register/$', register_page, name='register'),
+    url(r'^register/guest/$', guest_register_view, name='guest_register'),
     url(r'^logout/$', LogoutView.as_view(), name='logout'),
     url(r'^products/', include("products.urls", namespace='products')),
     url(r'^search/', include("search.urls", namespace='search')),
