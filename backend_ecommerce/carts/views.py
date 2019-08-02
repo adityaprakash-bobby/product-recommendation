@@ -16,6 +16,10 @@ def cart_home(request):
 
 def cart_update(request):
     product_id = request.POST.get('product_id')
+
+    if request.is_ajax():
+        print("Ajax request")
+
     if product_id is not None:
         try:
             product_obj = Product.objects.get(id=product_id)
@@ -69,7 +73,7 @@ def checkout_home(request):
             order_obj.mark_paid()
             request.session['cart_items'] = 0
             del request.session['cart_id']
-            return redirect("/cart/success")
+            return redirect("cart:success")
 
 
     context = {
@@ -81,3 +85,6 @@ def checkout_home(request):
         "address_qs": address_qs,
     }
     return render(request, "carts/checkout.html", context)
+
+def checkout_done_view(request):
+    return render(request, "carts/checkout-done.html", {})
