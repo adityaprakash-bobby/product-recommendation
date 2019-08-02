@@ -20,15 +20,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 from .views import home_page, about_page, contact_page, login_page, register_page
-# from products.views import (
-#         ProductListView, 
-#         product_list_view, 
-#         ProductDetailView,
-#         ProductDetailSlugView,
-#         product_detail_view,
-#         ProductFeaturedListView,
-#         ProductFeaturedDetailView
-# )
+from carts.views import cart_home
 
 
 urlpatterns = [
@@ -39,6 +31,7 @@ urlpatterns = [
     url(r'^register/$', register_page, name='register'),
     url(r'^products/', include("products.urls", namespace='products')),
     url(r'^search/', include("search.urls", namespace='search')),
+    url(r'^cart/$', cart_home, name='cart'),
     # url(r'^featured/$', ProductFeaturedListView.as_view()),
     # url(r'^featured/(?P<pk>\d+)/$', ProductFeaturedDetailView.as_view()),
     # url(r'^products/$', ProductListView.as_view()),
