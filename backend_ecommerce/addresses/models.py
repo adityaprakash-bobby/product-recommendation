@@ -13,7 +13,7 @@ class Address(models.Model):
     address_line_1  = models.CharField(max_length=120)
     address_line_2  = models.CharField(max_length=120, null=True, blank=True)
     city            = models.CharField(max_length=120)
-    country         = models.CharField(max_length=120, default='United States of America')
+    country         = models.CharField(max_length=120, default='India')
     state           = models.CharField(max_length=120)
     postal_code     = models.CharField(max_length=120)
 
