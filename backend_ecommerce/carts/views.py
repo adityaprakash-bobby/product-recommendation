@@ -35,7 +35,7 @@ def checkout_home(request):
     order_obj = None
     if cart_created or cart_obj.products.count() == 0:
         return redirect("cart:home")
-       
+
     user = request.user
     billing_profile = None
     login_form = LoginForm()
@@ -53,6 +53,9 @@ def checkout_home(request):
     else:
         pass
     
+    if billing_profile is not None:
+        order_obj, order_obj_created = Order.objects.new_or_get(billing_profile, cart_obj)
+
     context = {
         "object": order_obj,
         "billing_profile": billing_profile,
