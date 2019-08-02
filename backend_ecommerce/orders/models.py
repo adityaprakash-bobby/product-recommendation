@@ -24,6 +24,14 @@ class Order(models.Model):
 
     def __str__(self):
         return self.order_id
+    
+    def update_total(self):
+        cart_total = self.cart.total
+        shipping_total = self.shipping_total
+        new_total = cart_total + shipping_total
+        self.total = new_total
+        self.save()
+        return new_total
 
 def pre_save_create_order_id(sender, instance, *args, **kwargs):
     if not instance.order_id:
