@@ -1,3 +1,4 @@
+{% load static %}
 {% url 'home' as home_url %}
 {% url 'contact' as contact_url %}
 {% url 'products:list' as product_list_url %}
@@ -55,7 +56,366 @@
             </li> -->
 
         </ul>
-        {% include 'search/snippets/search-form.html' %}
     </div>
 </div>
 </nav>
+
+
+<!-- Header section -->
+<h1 class="hmp-visually-hidden">Dell.com</h1>
+<header id="dell-masthead" class="vertical-fill mh-si-state-is-cold" country="in" lang="en" segment="corp" cust-set="incorp1" srch-svc="//pilot.search.dell.com/" cust-srv="//www.dell.com/csbapi/en-in/personalization" country-svc="https://www.dell.com/csbapi/masthead/countrylist/in/en" persist-srch="false" grey-out-disabled="false" sign-in-flyout-disabled="false" is-homepage="true" cart-service="//www.dell.com/csbapi/en-in/cart" component="masthead">
+<div class="mh-top-wrap mh-container">
+        <div class="mh-tw-left-col">
+                <div class="mh-tw-home-wrap mh-hover-behavior">
+                        <a href="{{ home_url }}" class="cf-dell-home">
+                                <svg version="1.1" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" xml:space="preserve">
+                                <path class="mh-masthead-icon" d="M4.7,4.7L4.7,4.7M16,0c8.8,0,16,7.2,16,16l0,0c0,8.8-7.2,16-16,16l0,0C7.2,32,0,24.8,0,16l0,0C0,7.2,7.2,0,16,0L16,0 M27.3,4.7L27.3,4.7 M16,1.7c-3.9,0-7.5,1.6-10.1,4.2l0,0C3.3,8.5,1.7,12.1,1.7,16l0,0c0,3.9,1.6,7.5,4.2,10.1l0,0c2.6,2.6,6.2,4.2,10.1,4.2l0,0c3.9,0,7.5-1.6,10.1-4.2l0,0c2.6-2.6,4.2-6.1,4.2-10.1l0,0c0-3.9-1.6-7.5-4.2-10.1l0,0C23.5,3.3,19.9,1.7,16,1.7L16,1.7 M25.8,17.3h2.4v2h-4.8v-6.9h2.4V17.3zM18,16.9L14,20l-3.6-2.8c-0.5,1.3-1.8,2.1-3.2,2.1H4.1v-6.9h3.1c1.6,0,2.8,1,3.2,2.1l3.6-2.8l1.3,1.1l-3.3,2.6l0.6,0.5l3.3-2.6l1.3,1.1L14,16.9l0.6,0.5l3.3-2.6v-2.4h2.4v4.9h2.4v2H18L18,16.9L18,16.9zM8.4,15.9c0-0.9-0.6-1.5-1.5-1.5H6.4v2.9h0.5C7.7,17.3,8.4,16.9,8.4,15.9z" /></svg>
+                        </a>
+                </div>
+                <div class="mh-tw-search-wrap">
+                        <div class="mh-search-wrap" role="search">
+
+                            {% include 'search/snippets/search-form.html' %}
+</div>
+
+</div>
+    </div>
+        <div class="mh-tw-right-col">
+                <div class="mh-tw-mobile-search-wrap">
+                        <div class="mh-mobile-search-button-wrap  mh-hover-behavior">
+                                <button class="mh-mobile-search-button" tabindex="0">
+                                        <span class="mh-search-icon-wrap">
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 32" width="43" height="32">
+                                                        <path class="mh-masthead-icon" d="M36.523 27.225l-9.613-9.493c1.133-1.782 1.789-3.892 1.789-6.154 0-6.394-5.231-11.577-11.682-11.577-6.453 0-11.684 5.184-11.684 11.577s5.231 11.579 11.684 11.579c2.113 0 4.094-0.561 5.805-1.533l9.693 9.574c1.092 1.080 2.873 1.068 3.981-0.027 1.105-1.098 1.117-2.863 0.027-3.945zM9.441 11.577c0-4.146 3.391-7.507 7.576-7.507 4.184 0 7.574 3.361 7.574 7.507 0 4.147-3.391 7.507-7.574 7.507-4.186 0-7.576-3.36-7.576-7.507z"></path>
+                                                </svg>
+                                        </span>
+                                        <span>
+                                                <span class="mh-mobile-search-label">Search</span>
+                                        </span>
+                                </button>
+                        </div>
+                </div>
+                {% if request.user.is_authenticated %}
+                <div class="mh-tw-sign-in-wrap">
+                    <div class="mh-sign-in-button-wrap">
+                        <button class="mh-si-button" tabindex="0" aria-expanded="false">
+                                <a href="{{ logout_url }}" role="link" aria-label="Cart" class="mh-cart-trigger mh-hover-behavior">
+                                <span class="mh-si-icon-wrap">
+                                        <svg version="1.1" xmlns="//www.w3.org/2000/svg" width="30.5" height="32" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30.5 32" xml:space="preserve">
+
+                                        <path class="mh-so-icon" d="M15.6,0c4.3,0,7.8,3.5,7.8,7.7c0,4.3-3.5,7.8-7.8,7.8c-4.3,0-7.7-3.5-7.7-7.8C7.9,3.5,11.3,0,15.6,0z M30.5,32H0v-5.6c0-4.3,3.5-7.8,7.8-7.8h15c4.3,0,7.8,3.5,7.8,7.8V32z" /></svg>
+                                </span>
+                                <span>
+                                        <span class="mh-si-label" mh-sign-out-label="Sign Out">Sign Out</span>
+                                </span>
+                                </a>
+                        </button>
+                    </div>
+                </div>
+                {% else %}
+                <div class="mh-tw-sign-in-wrap">
+                    <div class="mh-sign-in-button-wrap">
+                        <button class="mh-si-button" tabindex="0" aria-expanded="false">
+                            <a href="{{ login_url }}" role="link" aria-label="Cart" class="mh-cart-trigger mh-hover-behavior">
+                                <span class="mh-si-icon-wrap">
+                                        <svg version="1.1" xmlns="//www.w3.org/2000/svg" width="30.5" height="32" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30.5 32" xml:space="preserve">
+
+                                        <path class="mh-si-icon" d="M15.6,0c4.3,0,7.8,3.5,7.8,7.7c0,4.3-3.5,7.8-7.8,7.8c-4.3,0-7.7-3.5-7.7-7.8C7.9,3.5,11.3,0,15.6,0z M30.5,32H0v-5.6c0-4.3,3.5-7.8,7.8-7.8h15c4.3,0,7.8,3.5,7.8,7.8V32z" /></svg>
+                                </span>
+                                <span>
+                                        <span class="mh-si-label" mh-sign-in-label="Sign In">Sign In</span>
+                                </span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                {% endif %}
+                <div class="mh-tw-cart-wrap">
+                    <div id="mh-cart" class="mh-cart-trigger-wrap" tabindex="0">
+                        <a href="{{ cart_url }}" role="link" aria-label="Cart" class="mh-cart-trigger mh-hover-behavior">
+                        <span class="mh-ct-icon-wrap" mh-show-bubble="false" mh-bubble-count="">
+                            <svg version="1.1" id="Layer_1" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 43 32" width="43" height="32" xml:space="preserve">
+                            <path class="cf-masthead-icon" d="M36.6,17.4l5-12c0.1-0.3,0.1-0.6-0.1-0.8c-0.2-0.2-0.5-0.4-0.8-0.4l-30.3,0L9,0.8C8.9,0.8,8.9,0,7.2,0H3.8c-1,0-2-0.2-2.6,1C1.1,1.2,1,1.4,1,1.7v0c0,0,0,0,0,0c0,0.2,0.1,0.5,0.1,0.7c0.1,0.2,0.2,0.3,0.3,0.5c0,0,0,0.1,0.1,0.1c0.4,0.5,1,0.9,1.8,0.9h3.5c0,0,0,0,0,0l10.5,20.7c-1.4,0.6-2.4,2-2.4,3.6c0,2.1,1.7,3.9,3.9,3.9c2.1,0,3.9-1.7,3.9-3.9c0-0.2,0-1.9,0-2.1l8.5,0c0,0.1,0,1.9,0,2.1c0,2.1,1.7,3.9,3.9,3.9c2.1,0,3.9-1.7,3.9-3.9c0-1.7-1.2-3.2-2.8-3.7c-0.1,0-0.1-0.1-0.2-0.1c-0.2-0.7-0.8-1.2-1.5-1.2l-14.3,0l-2.7-5.2l18.2,0C36.1,17.9,36.4,17.7,36.6,17.4L36.6,17.4z" /></svg>
+                        </span>
+                        {% if request.session.cart_items == 0 %}
+                        <span>Cart</span>
+                        {% else  %}
+                        <span><b>{{ request.session.cart_items }}</b></span>
+                        {% endif %}
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="mh-tw-country-wrap mh-hover-behavior">
+
+<div class="mh-top-country" component="locale">
+        <div id="mh-top-countryselector" class="mh-locale mh-locale-top">
+                <div id="mh-top-countrytoggle" class="mh-top-flag-icon">
+                        <div>
+                                <img src="{% static 'img/in.gif' %}" alt="IND" />
+                        </div>
+                        <div class="mh-top-country-code">IND</div>
+                </div>
+                <ul id="mh-top-countrylist" class="mh-locale-menu mh-locale-menu-top" data-country-service="https://www.dell.com/csbapi/masthead/countrylist/in/en"></ul>
+        </div>
+</div>
+
+                </div>
+                <div class="mh-tw-hamburger-wrap mh-hover-behavior">
+                        <button class="mh-hamburger-trigger ">
+                                <span class="mh-hb-icon-wrap">
+                                        <svg version="1.1" id="Layer_1" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" width="32" height="32" x="0px" y="0px" viewBox="0 0 43 32" xml:space="preserve">
+                                        <path class="mh-masthead-icon" d="M3.393 0h35.88v6.347h-35.88zM3.393 12.826h35.88v6.347h-35.88zM3.393 25.653h35.88v6.347h-35.88z"></path></svg>
+                                </span>
+                                <span>Menu</span>
+                        </button>
+                </div>
+        </div>
+</div>
+<div class="mh-shadow-line-blue">
+        <div class="mh-container mh-shadow"></div>
+</div>
+<div class="mh-site-nav-wrap mh-container">
+
+
+<nav role="navigation" class="container mh-no-js">
+<a class="mh-skip-main" href="">Skip to main content</a>
+<ul class="mh-site-nav">
+                <li class="mh-list-item-2" data-testid="header-navigation-menu-t1-item">
+                        <button class="mh-list-item-2-trigger" aria-haspopup="true" id="l1_0" tabindex="0">
+                                Products
+                        </button>
+                        <ul class="mh-tier2 mh-dropdown-menu" aria-labelledby="l1_0" data-testid="header-navigation-menu-t2-item">
+                                                <li class="mh-level-2-children mh-img-menu-trigger">
+                                                        <a href="javascript:;" class="mh-tier3-link mh-has-children mh-nav-hover" id="l2_0" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                                Laptops
+                                                        </a>
+
+                                                        <ul class="mh-tier3 mh-img-menu-wrap" aria-labelledby="l2_0" data-testid="header-navigation-menu-t3-item">
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="C:\Users\LENOVO\OneDrive\Desktop\Dell Official Site   Dell India_files\20135-home-inspiron-15-5570-115x75-v3.webp" mh-lazy-prior="low" alt="View all Laptops for Home" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Home</span>
+                                                                                        <span class="mh-img-subtitle">View all Laptops for Home</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="C:\Users\LENOVO\OneDrive\Desktop\Dell Official Site   Dell India_files\Masthead-LT-For-Work-115x75.webp" mh-lazy-prior="low" alt="View all Laptops for Work" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Work</span>
+                                                                                        <span class="mh-img-subtitle">View all Laptops for Work</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                        </ul>
+                                                        <a href="javascript:;" class="mh-close-focus"></a>
+                                                </li>
+
+                                                <li class="mh-level-2-children mh-img-menu-trigger">
+                                                        <a href="javascript:;" class="mh-tier3-link mh-has-children mh-nav-hover" id="l2_1" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                                Desktops &amp; All-in-One PCs
+                                                        </a>
+
+                                                        <ul class="mh-tier3 mh-img-menu-wrap" aria-labelledby="l2_1" data-testid="header-navigation-menu-t3-item">
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="C:\Users\LENOVO\OneDrive\Desktop\Dell Official Site   Dell India_files\20135-home-desktop-inspiron-3670-aio-3477-115x75-v2.webp" mh-lazy-prior="low" alt="View all Desktops &amp; All-in-One PCs for Home" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Home</span>
+                                                                                        <span class="mh-img-subtitle">View all Desktops &amp; All-in-One PCs for Home</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="//i.dell.com/sites/csimages/Merchandizing_Imagery/en/Masthead-DT-For-Work-115x75.png" mh-lazy-prior="low" alt="View all Desktops &amp; All-in-One PCs for Work" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Work</span>
+                                                                                        <span class="mh-img-subtitle">View all Desktops &amp; All-in-One PCs for Work</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                        </ul>
+                                                        <a href="javascript:;" class="mh-close-focus"></a>
+                                                </li>
+
+                                                <li class="mh-level-2-children mh-img-menu-trigger">
+                                                        <a href="javascript:;" class="mh-tier3-link mh-has-children mh-nav-hover" id="l2_2" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                                Tablets &amp; 2-in-1 Laptops
+                                                        </a>
+
+                                                        <ul class="mh-tier3 mh-img-menu-wrap" aria-labelledby="l2_2" data-testid="header-navigation-menu-t3-item">
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="C:\Users\LENOVO\OneDrive\Desktop\Dell Official Site   Dell India_files\20135-home-notebook-inspiron-7373-115x75-v1.jpg" mh-lazy-prior="low" alt="View all 2-in-1 Laptops for Home" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Home</span>
+                                                                                        <span class="mh-img-subtitle">View all 2-in-1 Laptops for Home</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="C:\Users\LENOVO\OneDrive\Desktop\Dell Official Site   Dell India_files\Masthead-2in1-For-Work-115x75.jpg" mh-lazy-prior="low" alt="View all Tablets &amp; 2-in-1 Laptops for Work" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Work</span>
+                                                                                        <span class="mh-img-subtitle">View all Tablets &amp; 2-in-1 Laptops for Work</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                        </ul>
+                                                        <a href="javascript:;" class="mh-close-focus"></a>
+                                                </li>
+
+                                                <li class="mh-level-2-children mh-img-menu-trigger">
+                                                        <a href="javascript:;" class="mh-tier3-link mh-has-children mh-nav-hover" id="l2_3" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                                Gaming
+                                                        </a>
+
+                                                        <ul class="mh-tier3 mh-img-menu-wrap" aria-labelledby="l2_3" data-testid="header-navigation-menu-t3-item">
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-alienware-pcs2.png" mh-lazy-prior="low" alt="View all Gaming Laptops &amp; Desktops" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">Alienware PCs</span>
+                                                                                        <span class="mh-img-subtitle">View all Gaming Laptops &amp; Desktops</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="//i.dell.com/sites/csimages/Merchandizing_Imagery/en/20135-home-desktop-inspiron-5680-notebook-g-5587-115x75-v2.png" mh-lazy-prior="low" alt="View all Gaming PCs &amp; Accessories" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">Dell Gaming</span>
+                                                                                        <span class="mh-img-subtitle">View all Gaming PCs &amp; Accessories</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                        </ul>
+                                                        <a href="javascript:;" class="mh-close-focus"></a>
+                                                </li>
+
+                                        <li>
+                                                <a href="" class="mh-tier3-link mh-nav-hover" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                        Workstations
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="" class="mh-tier3-link mh-nav-hover" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                        Servers &amp; Storage
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="" class="mh-tier3-link mh-nav-hover" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                        Networking
+                                                </a>
+                                        </li>
+                                                <li class="mh-level-2-children mh-img-menu-trigger">
+                                                        <a href="javascript:;" class="mh-tier3-link mh-has-children mh-nav-hover" id="l2_7" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                                Monitors
+                                                        </a>
+
+                                                        <ul class="mh-tier3 mh-img-menu-wrap" aria-labelledby="l2_7" data-testid="header-navigation-menu-t3-item">
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="//i.dell.com/sites/csimages/Merchandizing_Imagery/en/Monitor-Home.png" mh-lazy-prior="low" alt="View all Monitors for Home" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Home</span>
+                                                                                        <span class="mh-img-subtitle">View all Monitors for Home</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="//i.dell.com/sites/csimages/Merchandizing_Imagery/en/Monitor-Work.png" mh-lazy-prior="low" alt="View all Monitors for Work" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Work</span>
+                                                                                        <span class="mh-img-subtitle">View all Monitors for Work</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                        </ul>
+                                                        <a href="javascript:;" class="mh-close-focus"></a>
+                                                </li>
+
+                                                <li class="mh-level-2-children mh-img-menu-trigger">
+                                                        <a href="javascript:;" class="mh-tier3-link mh-has-children mh-nav-hover" id="l2_8" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                                Electronics &amp; Accessories
+                                                        </a>
+
+                                                        <ul class="mh-tier3 mh-img-menu-wrap" aria-labelledby="l2_8" data-testid="header-navigation-menu-t3-item">
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="//i.dell.com/sites/csimages/Merchandizing_Imagery/en/ENA-home.png" mh-lazy-prior="low" alt="View all Electronics &amp; Accessories for Home" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Home</span>
+                                                                                        <span class="mh-img-subtitle">View all Electronics &amp; Accessories for Home</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                                        <li class="mh-image-item mh-nav-hover">
+                                                                                <a href="{{ product_list_url }}" tabindex="0" data-testid="header-navigation-menu-t3-item">
+                                                                                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Crect x='1' y='1' width='-3' height='-3'/%3E%3C/svg%3E" mh-lazy-src="//i.dell.com/sites/csimages/Merchandizing_Imagery/en/ENA-work.png" mh-lazy-prior="low" alt="View all Electronics &amp; Accessories for Work" width="115" height="75" onerror="this.style.display='none'" />
+                                                                                        <span class="mh-img-caption">For Work</span>
+                                                                                        <span class="mh-img-subtitle">View all Electronics &amp; Accessories for Work</span>
+                                                                                </a>
+                                                                        </li>
+
+                                                        </ul>
+                                                        <a href="javascript:;" class="mh-close-focus"></a>
+                                                </li>
+
+                        </ul>
+                        <a href="javascript:;" class="mh-close-focus"></a>
+                </li>
+
+                <li class="mh-list-item-2" data-testid="header-navigation-menu-t1-item">
+                        <button class="mh-list-item-2-trigger" aria-haspopup="true" id="l1_10" tabindex="0">
+                                Solutions
+                        </button>
+                        <a href="javascript:;" class="mh-close-focus"></a>
+                </li>
+
+                <li class="mh-list-item-2" data-testid="header-navigation-menu-t1-item">
+                        <button class="mh-list-item-2-trigger" aria-haspopup="true" id="l1_22" tabindex="0">
+                                Services
+                        </button>
+                        
+                        <a href="javascript:;" class="mh-close-focus"></a>
+                </li>
+
+                <li class="mh-list-item-2" data-testid="header-navigation-menu-t1-item">
+                        <button class="mh-list-item-2-trigger" aria-haspopup="true" id="l1_35" tabindex="0">
+                                Deals
+                        </button>
+                        <ul class="mh-tier2 mh-dropdown-menu" aria-labelledby="l1_35" data-testid="header-navigation-menu-t2-item">
+                                        <li>
+                                                <a href="#" class="mh-tier3-link mh-nav-hover" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                        Laptop Deals
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#" class="mh-tier3-link mh-nav-hover" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                        Desktop Deals
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#" class="mh-tier3-link mh-nav-hover" tabindex="0" data-testid="header-navigation-menu-t1-sub-item">
+                                                        Gaming PC Deals
+                                                </a>
+                                        </li>
+                        </ul>
+                        <a href="javascript:;" class="mh-close-focus"></a>
+                </li>
+
+
+                <li class="mh-list-item-2" data-testid="header-navigation-menu-t1-item">
+                        <a href="#" class="mh-list-item-2-trigger">
+                                Find a Store
+                        </a>
+
+                </li>
+                        <li class="mh-list-item-2 virtualChatAnchor" style="display:none;" tabindex="0">
+                <a href="javascript:;" class="mh-list-item-2-trigger virtualChatAnchor dellmetrics-masthead" data-testid="header-chat-with-ava-link" tabindex="-1">
+                        <span data-testid="tier1_items">
+                                <em> Chat with Ava</em>
+                        </span>
+                </a>
+        </li>
+</ul>
+</nav>
+</div>
+</header>

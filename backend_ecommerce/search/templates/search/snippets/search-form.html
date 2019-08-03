@@ -1,8 +1,20 @@
-<form method='GET' action='{% url "search:query" %}' class="form my-2 my-lg-0">
+<!-- <form method='GET' action='{% url "search:query" %}' class="form my-2 my-lg-0">
     <div class='input-group'>
       <input class="form-control" type="text" placeholder="Search" name='q' aria-label="Search" value='{{ request.GET.q }}'>
       <span class='input-group-btn'>
           <button class="btn btn-outline-primary" type="submit">Search</button>
       </span>
       </div>
+</form> -->
+
+<form method='GET' action='{% url "search:query" %}' class="form my-2 my-lg-0">
+<input type="text" class="mh-search-input" autocomplete="on" placeholder="What can we help you find?" name='q' aria-label="Search" value='{{ request.GET.q }}'/>
+<button class="mh-btn mh-btn-primary mh-search-btn">
+        <span class="mh-search-button-label">Search</span>
+        <span class="mh-mobile-search-icon">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 32" width="43" height="32">
+                        <path class="mh-masthead-icon" style="fill:white;" d="M36.523 27.225l-9.613-9.493c1.133-1.782 1.789-3.892 1.789-6.154 0-6.394-5.231-11.577-11.682-11.577-6.453 0-11.684 5.184-11.684 11.577s5.231 11.579 11.684 11.579c2.113 0 4.094-0.561 5.805-1.533l9.693 9.574c1.092 1.080 2.873 1.068 3.981-0.027 1.105-1.098 1.117-2.863 0.027-3.945zM9.441 11.577c0-4.146 3.391-7.507 7.576-7.507 4.184 0 7.574 3.361 7.574 7.507 0 4.147-3.391 7.507-7.574 7.507-4.186 0-7.576-3.36-7.576-7.507z"></path>
+                </svg>
+        </span>
+</button>
 </form>
