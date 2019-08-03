@@ -8,13 +8,13 @@
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
-
   height: auto;
   background-color: #3287c1;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
+  z-index: -2000;
 }
 .footer .col {
   width: auto;
