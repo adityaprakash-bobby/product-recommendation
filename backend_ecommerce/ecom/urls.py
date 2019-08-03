@@ -23,6 +23,7 @@ from django.contrib.auth.views import LogoutView
 from .views import home_page, about_page, contact_page
 from addresses.views import checkout_address_create_view, checkout_address_reuse_view
 from accounts.views import login_page, register_page, guest_register_view
+from carts.views import cart_detail_api_view
 
 urlpatterns = [
     url(r'^$', home_page, name='home'),
@@ -35,6 +36,7 @@ urlpatterns = [
     url(r'^products/', include("products.urls", namespace='products')),
     url(r'^search/', include("search.urls", namespace='search')),
     url(r'^cart/', include( "carts.urls", namespace='cart')),
+    url(r'^api/cart/$', cart_detail_api_view, name='api-cart'),
     url(r'^checkout/address/create/$', checkout_address_create_view, name='checkout_address_create'),
     url(r'^checkout/address/reuse/$', checkout_address_reuse_view, name='checkout_address_reuse'),
     url(r'^admin/', admin.site.urls),
