@@ -91,7 +91,7 @@
                     event.preventDefault();
                     console.log("Form is not sending")
                     var thisForm = $(this)
-                    var actionEndpoint = thisForm.attr("action");
+                    var actionEndpoint = thisForm.attr("data-endpoint");
                     var httpMethod = thisForm.attr("method");
                     var formData = thisForm.serialize();
                     $.ajax({
@@ -108,6 +108,10 @@
                             }
                             var navbarCount = $(".navbar-cart-count")
                             navbarCount.text(data.cartItemCount)
+                            var currentPath = window.location.href
+                            if (currentPath.indexOf("cart") != -1) {
+                                refreshCart()
+                            }
                         },
                         error: function(errorData){
                             console.log("error")
@@ -115,7 +119,28 @@
                         }
                     })
                 })
-            })
+
+                function refreshCart(){
+              console.log("in current cart")
+              var cartTable = $(".cart-table")
+              var cartBody = cartTable.find(".cart-body")
+              cartBody.html("<h1>Changed</h1>")
+               var refreshCartUrl = '/api/cart/'
+              var refreshCartMethod = "GET";
+              var data = {};
+              $.ajax({
+                url: refreshCartUrl,
+                method: refreshCartMethod,
+                data: data,
+                sucess: function(data){
+                  console.log("success")
+                },
+                error: function(errorData){
+                  console.log("error")
+                  console.log(errorData)
+                }
+              })
+                }
         </script>
 
     </body>
