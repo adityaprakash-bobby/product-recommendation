@@ -1,0 +1,13 @@
+{% load static %}
+{% url 'products:list' as product_list_url %}
+<!-- Banner section -->
+<section class="banner-section">
+    <div class="container">
+        <div class="banner set-bg" data-setbg="{% static 'img/Bg2.jpg' %}">
+            <div class="tag-new">NEW</div>
+            <span>Now up to 42% off select products</span>
+            <a href="{{ product_list_url }}" class="site-btn btn btn-outline-primary">SHOP NOW</a>
+        </div>
+    </div>
+</section>
+<!-- Banner section end  -->
