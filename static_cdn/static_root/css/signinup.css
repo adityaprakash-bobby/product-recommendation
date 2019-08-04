@@ -1,0 +1,132 @@
+:focus {
+  outline: none;
+}
+
+body {
+  width: 100wh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("notebook-1280538.jpg") no-repeat;
+  background-size: cover;
+  background-color: #0f67ff;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.box-wrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.box, #box-form {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#box-form {
+  background-color: #fff;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#box-form .btn-confirm {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 20px 50px;
+  background-color: #3856D4;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.2s linear;
+}
+#box-form .btn-confirm:hover {
+  background-color: #1F3AAA;
+}
+#box-form .form-group {
+  margin: 10px 50px 10px 50px;
+}
+#box-form .form-group label, #box-form .form-group input {
+  display: block;
+  width: 100%;
+}
+#box-form .form-group label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #324FC8;
+}
+#box-form .form-group input {
+  outline: none;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #708BFB;
+  color: #708BFB;
+  font-size: 16px;
+}
+
+.bottom-group {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.tab-pills {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+.tab-pills li {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+.tab-pills li:first-child {
+  border: 1px solid #708BFB;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-right: 0px;
+}
+.tab-pills li:last-child {
+  border: 1px solid #708BFB;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+li.active {
+  background-color: #324FC8;
+  color: #fff;
+}
+
+.active-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.2s ease-out;
+}
+
+.hidden-content {
+  display: none;
+  transition: all 0.2s ease-out;
+}
