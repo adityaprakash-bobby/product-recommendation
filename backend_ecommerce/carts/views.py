@@ -21,7 +21,7 @@ def cart_detail_api_view(request):
             for x in cart_obj.products.all()]
     
     cart_data  = {"products": products, "subtotal": cart_obj.subtotal, "total": cart_obj.total}
-    return JsonResponse(cart_data)
+    return JsonResponse(cart_data, status=200)
 
 def cart_home(request):
     cart_obj, new_obj = Cart.objects.new_or_get(request)
