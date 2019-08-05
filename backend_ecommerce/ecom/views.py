@@ -1,15 +1,32 @@
 from django.contrib.auth import authenticate, login, get_user_model
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render,redirect
+from products.models import Product
 
 from .forms import ContactForm
 
 def home_page(request):
+
+    category_student = Product.objects.filter(customer_type=1)
+    category_exec    = Product.objects.filter(customer_type=2)
+    category_prog    = Product.objects.filter(customer_type=3)
+    category_gamer   = Product.objects.filter(customer_type=4)
+    category_datasc  = Product.objects.filter(customer_type=5)
+    category_home    = Product.objects.filter(customer_type=6)
+
     context = {
         "title":"Hello there!",
         "content":" Welcome to the homepage.",
-
+        "category_student" : category_student,
+        "category_exec" : category_exec,
+        "category_prog" : category_prog,
+        "category_gamer" : category_gamer,
+        "category_datasc" : category_datasc,
+        "category_home" : category_home,
     }
+
+    print(category_student,category_exec,category_prog,category_gamer,category_datasc,category_home)
+
     if request.user.is_authenticated():
         context["premium_content"] = "Premium content"
     return render(request, "home_page.html", context)

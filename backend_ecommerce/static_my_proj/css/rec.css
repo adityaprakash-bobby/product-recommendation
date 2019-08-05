@@ -1,0 +1,21 @@
+.pr{
+	/*z-index: 99;*/
+	
+	min-height: 400px
+}
+
+
+body{
+	background: linear-gradient(to left, rgba(177, 225, 255,1.0), white);
+	 /*position: relative; */
+	 text-align: left;
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(177, 225, 238);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
