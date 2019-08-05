@@ -5,6 +5,8 @@ from django.http import Http404
 from .models import Product
 from carts.models import Cart
 
+from .recommendation import *
+
 class ProductFeaturedListView(ListView):
     template_name = "products/list.html"
 
@@ -93,6 +95,7 @@ class ProductDetailSlugView(DetailView):
         #instance = get_object_or_404(Product, slug=slug, active=True)
         try:
             instance = Product.objects.get(slug=slug, active=True)
+            # print(instance.title)
         except Product.DoesNotExist:
             raise Http404("Product not found")
         except Product.MultipleObjectsReturned:
@@ -106,4 +109,8 @@ class ProductDetailSlugView(DetailView):
         context = super(ProductDetailSlugView, self).get_context_data(*args, **kwargs)
         cart_obj, new_obj = Cart.objects.new_or_get(self.request)
         context['cart'] = cart_obj
+        test = [1, 15.3, "C", 8, "R", "WI", 1.5, 50000, "Programmer"]
+        test_df = pd.DataFrame(test)
+        label = recommend(test_df.T)
+        context['recc_prods'] = Product.objects.all()
         return context

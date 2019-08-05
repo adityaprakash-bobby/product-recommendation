@@ -1,0 +1,994 @@
+Warranty Period(Days),Screen Size,Cpu,Ram,Gpu,OpSys,Weight,Price,Category,Label number
+1,11.6,A,2,P,WI,0.98,14880,Home User,1
+1,15.6,A,2,P,CH,2.19,15430,Home User,1
+1,14,A,2,Q,WI,1.65,15430,Home User,1
+1,14,A,4,P,WI,1.22,15733,Home User,1
+1,15.6,A,4,P,LI,2,17369,Home User,1
+3,14,A,4,P,WI,1.44,17757,Home User,1
+1,14,A,2,P,WI,1.4,18532,Home User,1
+1,15.6,A,4,P,WI,1.89,18997,Home User,1
+1,11.6,A,2,P,WI,1.1,18997,Home User,1
+1,15.6,A,4,P,WI,1.89,19300,Home User,1
+3,14,A,4,P,WI,1.4,19307,Home User,1
+1,14,A,2,P,WI,1.42,19307,Home User,1
+1,14,A,4,P,WI,1.44,19307,Home User,1
+1,15.6,A,4,P,NO,1.9,19568,Home User,1
+1,13.3,A,4,P,WI,1.35,19773,Home User,1
+1,15.6,A,4,P,NO,1.86,20005,Home User,1
+1,15.6,A,4,P,NO,1.86,20083,Home User,1
+1,14,A,4,P,WI,1.3,20160,Home User,1
+1,11.6,A,4,P,CH,1.25,20548,Home User,1
+3,14,A,4,P,WI,1.4,20548,Home User,1
+1,11.6,A,4,P,CH,1.15,20858,Home User,1
+1,11.6,A,4,P,WI,1.4,20858,Home User,1
+1,15.6,A,4,P,NO,1.9,20984,Home User,1
+1,14,A,4,P,WI,1.43,21246,Home User,1
+1,15.6,A,4,P,LI,2.2,21316,Home User,1
+1,15.6,A,4,P,LI,2,21323,Home User,1
+1,11.6,A,2,P,WI,1.1,21324,Home User,1
+1,14,A,4,Q,WI,1.65,21555,Home User,1
+1,14,A,2,P,WI,1.44,21634,Home User,1
+1,14,A,4,P,WI,1.5,22176,Home User,1
+2,15.6,A,4,P,NO,1.86,22401,Home User,1
+1,14,A,4,P,WI,1.44,22642,Home User,1
+1,11.6,A,4,P,CH,1.26,22874,Home User,1
+2,11.6,A,4,P,CH,1.25,23029,Home User,1
+1,14,A,4,P,WI,1.5,23107,Home User,1
+1,15.6,A,4,Q,LI,2.1,23107,Home User,1
+3,15.6,A,4,Q,WI,2.19,23107,Home User,1
+3,15.6,A,4,P,NO,1.86,23184,Home User,1
+1,14,A,4,P,WI,2.1,23184,Home User,1
+1,11.6,A,4,P,WI,1.16,23184,Home User,1
+1,14,A,4,P,WI,1.63,23184,Home User,1
+1,15.6,A,4,P,WI,2,23572,Home User,1
+1,11.6,A,2,P,WI,1.15,23607,Home User,1
+1,15.6,A,4,P,WI,2.2,23727,Home User,1
+1,15.6,A,4,P,WI,1.8,23960,Home User,1
+1,15.6,A,4,Q,NO,2.2,23960,Home User,1
+2,15.6,A,4,Q,WI,2.2,23960,Home User,1
+3,15.6,A,4,Q,WI,2.1,24658,Home User,1
+1,15.6,A,4,P,NO,2.2,24967,Home User,1
+2,14,A,4,P,CH,1.5,25201,Home User,2
+1,15.6,A,8,P,NO,2.2,25511,Home User,2
+1,14,A,4,P,WI,1.6,25511,Home User,2
+1,14,A,2,P,CH,1.68,25588,Home User,2
+1,15.6,A,4,Q,WI,2.1,25588,Home User,2
+0,11.6,A,4,P,WI,1.2,26364,Home User,2
+1,15.6,A,4,P,WI,2,26674,Home User,2
+1,15.6,A,4,P,WI,2.2,26674,Home User,2
+1,15.6,A,4,R,NO,1.86,26751,Home User,2
+1,15.6,A,4,P,WI,2.1,26906,Home User,2
+3,15.6,A,4,P,WI,2.1,26984,Home User,2
+1,14.1,A,4,P,WI,1.65,26984,Home User,2
+3,14,A,4,P,CH,1.68,27061,Home User,2
+1,14,A,4,P,WI,1.6,27061,Home User,2
+1,11.6,A,4,P,WI,1.25,27061,Home User,2
+1,15.6,A,4,P,WI,2.2,27061,Home User,2
+3,15.6,A,4,Q,WI,2.1,27061,Home User,2
+1,15.6,A,4,Q,WI,2,27061,Home User,2
+3,15.6,A,4,Q,WI,2.2,27061,Home User,2
+1,15.6,A,4,R,NO,2.1,27061,Home User,2
+3,11.6,A,4,P,CH,1.35,27527,Home User,2
+1,15.6,A,4,P,CH,2.2,27837,Home User,2
+1,15.6,A,4,R,LI,2.25,27837,Home User,2
+1,15.6,A,4,P,NO,2.2,27914,Home User,2
+3,15.6,A,4,Q,WI,2.1,28187,Home User,2
+1,15.6,A,4,R,NO,1.86,28294,Home User,2
+1,15.6,B,4,P,LI,2.1,28457,Home User,2
+2,15.6,A,4,P,WI,2.2,28612,Home User,2
+1,13.3,A,4,P,WI,1.2,28612,Home User,2
+2,15.6,A,4,Q,NO,2.2,28612,Home User,2
+1,15.6,A,4,Q,WI,1.86,28612,Home User,2
+1,11.6,A,4,P,WI,1.5,29078,Home User,2
+3,14,A,4,Q,CH,1.45,29078,Home User,2
+1,11.6,A,4,P,CH,1.25,29388,Home User,2
+1,17.3,A,4,Q,WI,2.8,29388,Home User,2
+3,15.6,A,4,Q,WI,2.4,29465,Home User,2
+1,15.6,B,4,P,WI,2.4,29775,Home User,2
+1,11.6,A,4,P,CH,1.23,29853,Home User,2
+1,11.6,A,4,P,CH,1.25,30163,Student,3
+3,15.6,A,4,P,LI,2,30163,Student,3
+1,15.6,A,8,P,WI,2.04,30163,Student,3
+1,14,A,8,P,WI,1.94,30163,Student,3
+1,14,A,4,P,WI,1.45,30163,Student,3
+3,14,A,8,R,WI,2.1,30163,Student,3
+1,15.6,A,4,R,LI,2.1,30241,Student,3
+1,15.6,B,4,R,NO,1.86,30543,Student,3
+1,15.6,B,4,Q,WI,2.1,30628,Student,3
+1,15.6,A,4,R,WI,1.86,30783,Student,3
+1,15.6,A,4,Q,WI,1.86,30899,Student,3
+1,15.6,A,4,P,WI,1.86,30938,Student,3
+3,15.6,A,8,P,WI,2,30938,Student,3
+2,15.6,A,4,Q,LI,2,30938,Student,3
+1,15.6,A,4,Q,WI,2.2,30938,Student,3
+1,15.6,B,4,R,WI,2.2,30938,Student,3
+1,15.6,B,4,R,WI,2.37,30938,Student,3
+1,15.6,B,4,Q,WI,2.1,31016,Student,3
+1,15.6,B,4,Q,WI,2.03,31249,Student,3
+1,15.6,A,4,R,NO,1.85,31287,Student,3
+1,15.6,A,4,R,WI,2.2,31714,Student,3
+3,15.6,A,4,R,WI,2.4,31853,Student,3
+3,15.6,A,4,Q,LI,2.1,31946,Student,3
+1,15.6,A,4,R,WI,1.85,32171,Student,3
+1,15.6,A,4,R,LI,2,32179,Student,3
+1,15.6,A,4,R,WI,2.3,32461,Student,3
+3,15.6,A,4,P,WI,2.2,32489,Student,3
+1,15.6,A,4,P,WI,1.86,32489,Student,3
+1,15.6,B,4,Q,WI,2.1,33032,Student,3
+2,15.6,A,4,Q,LI,2.25,33187,Student,3
+3,15.6,B,8,Q,WI,2.2,33265,Student,3
+1,11.6,A,4,P,WI,1.4,33730,Student,3
+1,15.6,A,4,Q,WI,1.86,34016,Student,3
+1,17.3,A,4,R,WI,2.71,34040,Student,3
+1,15.6,A,4,R,WI,1.91,34040,Student,3
+1,15.6,A,4,R,WI,1.86,34040,Student,3
+1,15.6,B,6,R,WI,2.3,34040,Student,3
+1,15.6,B,4,R,LI,2.4,34257,Student,3
+1,15.6,A,4,R,LI,2.18,34420,Student,3
+1,15.6,A,4,R,NO,2.2,34428,Student,3
+1,15.6,A,8,Q,WI,1.91,34575,Student,3
+1,15.6,A,4,R,WI,2.1,34660,Student,3
+1,15.6,A,4,R,WI,2.1,34660,Student,3
+1,12.3,A,6,P,WI,1.4,34815,Student,3
+1,15.6,A,4,Q,WI,2.2,34815,Student,3
+1,15.6,A,4,Q,WI,2,34815,Student,3
+1,15.6,A,4,R,WI,1.85,34815,Student,3
+1,15.6,A,4,R,WI,2.1,34815,Student,3
+3,15.6,A,4,Q,NO,1.9,34893,Student,3
+1,15.6,A,4,R,WI,2.4,34893,Student,3
+1,15.6,B,4,Q,WI,2.1,34971,Student,3
+2,15.6,A,4,Q,LI,2.18,35335,Student,4
+1,15.6,A,8,Q,NO,2.2,35591,Student,4
+1,15.6,A,8,R,WI,2.29,35591,Student,4
+1,15.6,B,8,R,WI,2.3,35591,Student,4
+1,13.3,A,4,Q,CH,1.45,35661,Student,4
+1,15.6,B,4,R,NO,2.15,35851,Student,4
+1,15.6,A,4,Q,LI,2.18,36056,Student,4
+3,15.6,A,4,Q,LI,2.25,36104,Student,4
+2,17.3,A,4,Q,WI,2.8,36134,Student,4
+1,15.6,B,4,R,NO,2.2,36211,Student,4
+1,15.6,B,4,R,NO,2.2,36289,Student,4
+2,15.6,A,4,Q,NO,2.2,36366,Student,4
+1,15.6,A,4,Q,WI,2.1,36366,Student,4
+1,15.6,A,8,Q,WI,2.23,36366,Student,4
+1,15.6,B,4,Q,WI,1.68,36366,Student,4
+1,15.6,A,4,R,WI,2.2,36366,Student,4
+1,15.6,A,4,R,WI,1.86,36366,Student,4
+1,17.3,A,4,Q,WI,2.8,36470,Student,4
+1,11.6,A,4,P,WI,1.4,36832,Student,4
+1,11.6,A,4,P,WI,1.47,37142,Student,4
+1,15.6,A,4,Q,NO,2.2,37142,Student,4
+1,15.6,B,6,R,WI,2.1,37142,Student,4
+1,11.6,A,4,P,WI,1.4,37607,Student,4
+3,15.6,A,4,Q,LI,2.2,37607,Student,4
+1,15.6,B,4,Q,WI,1.86,37893,Student,4
+1,15.6,B,4,Q,WI,1.91,37916,Student,4
+3,15.6,B,4,Q,WI,2.1,37917,Student,4
+1,17.3,A,4,Q,WI,2.6,37917,Student,4
+1,17.3,A,8,R,WI,2.54,37917,Student,4
+2,17.3,A,4,R,WI,2.8,37917,Student,4
+1,15.6,B,4,R,WI,2,37917,Student,4
+3,15.6,B,4,Q,NO,1.9,37987,Student,4
+3,15.6,A,4,Q,WI,2.1,37987,Student,4
+1,15.6,B,4,R,WI,2.1,38227,Student,4
+1,11.6,A,8,P,CH,1.4,38382,Student,4
+3,15.6,A,4,Q,WI,2.1,38615,Student,4
+1,15.6,B,4,R,WI,1.9,38615,Student,4
+1,15.6,A,4,Q,WI,3.2,38685,Student,4
+1,15.6,A,8,Q,NO,2.2,38692,Student,4
+1,15.6,B,4,Q,NO,2.2,38692,Student,4
+1,15.6,B,4,Q,WI,1.91,38692,Student,4
+2,15.6,A,4,Q,WI,2.1,38692,Student,4
+1,15.6,B,6,Q,WI,2.4,38692,Student,4
+3,14,A,4,Q,WI,1.75,38692,Student,4
+2,15.6,B,4,Q,WI,2.4,38692,Student,4
+1,15.6,B,8,R,NO,2.2,38692,Student,4
+1,15.6,A,4,R,WI,2.2,38692,Student,4
+1,14,B,4,R,WI,1.3,39468,Student,4
+1,15.6,B,4,Q,LI,2.1,40243,Student,4
+3,15.6,B,8,Q,NO,2.2,40243,Student,4
+1,17.3,A,8,Q,WI,2.8,40243,Student,4
+1,17,B,8,Q,WI,2.6,40391,Student,4
+1,15.6,B,4,Q,WI,2.04,40435,Student,4
+1,15.6,B,8,R,LI,2.3,40553,Executive,5
+1,17.3,A,4,R,NO,2.8,41019,Executive,5
+1,15.6,B,4,Q,WI,2.2,41096,Executive,5
+1,17.3,A,4,Q,WI,2.8,41096,Executive,5
+3,15.6,B,4,R,WI,2.2,41484,Executive,5
+3,15.6,A,6,Q,WI,2.04,41794,Executive,5
+1,15.6,A,8,R,WI,1.86,41794,Executive,5
+1,15.6,B,8,R,WI,2.14,41868,Executive,5
+1,15.6,A,4,R,WI,2.23,42182,Executive,5
+1,17.3,A,8,R,WI,2.65,42193,Executive,5
+3,15.6,A,4,Q,WI,2.2,42311,Executive,5
+3,15.6,B,4,Q,WI,1.9,42569,Executive,5
+1,15.6,B,8,R,NO,2.2,42569,Executive,5
+1,15.6,B,8,R,NO,2.2,42569,Executive,5
+3,15.6,B,6,R,WI,2.2,42569,Executive,5
+1,15.6,B,6,R,WI,2.23,42569,Executive,5
+1,13.3,B,4,R,WI,1.5,42569,Executive,5
+1,11.6,A,4,P,WI,1.59,42880,Executive,5
+1,15.6,B,8,R,WI,2.36,43218,Executive,5
+3,15.6,A,4,Q,WI,2.18,43314,Executive,5
+3,15.6,B,4,Q,WI,2.4,43345,Executive,5
+1,15.6,B,4,R,LI,2,43345,Executive,5
+1,15.6,B,8,R,WI,2.04,43345,Executive,5
+1,17.3,A,4,Q,WI,2,43733,Executive,5
+1,15.6,B,6,R,WI,2.4,43733,Executive,5
+1,15.6,B,8,Q,WI,2.24,43810,Executive,5
+1,15.6,A,4,R,WI,2.3,43810,Executive,5
+1,15.6,B,6,R,WI,1.91,44113,Executive,5
+1,15.6,B,4,Q,LI,2.18,44120,Executive,5
+3,17.3,B,6,Q,WI,2.65,44120,Executive,5
+1,15.6,B,4,Q,WI,2.2,44353,Executive,5
+1,15.6,B,4,Q,WI,2.2,44586,Executive,5
+1,15.6,B,8,R,NO,1.86,44586,Executive,5
+3,15.6,B,6,Q,WI,2,44741,Executive,5
+2,15.6,B,6,Q,WI,2.2,44896,Executive,5
+3,15.6,A,4,Q,WI,2.2,44896,Executive,5
+1,15.6,B,4,R,NO,2.45,44896,Executive,5
+1,15.6,B,8,R,WI,2.2,44896,Executive,5
+3,15.6,C,6,S,WI,2.04,44896,Executive,5
+1,15.6,A,8,Q,WI,2,45121,Executive,5
+1,15.6,B,4,Q,WI,2.3,45361,Executive,5
+1,14,A,4,R,WI,1.76,45361,Executive,5
+1,15.6,B,4,R,WI,2,45453,Executive,5
+1,15.6,B,4,R,WI,2.18,45485,Executive,5
+1,17.3,B,4,Q,WI,2.79,45671,Executive,5
+1,17.3,B,8,R,NO,2.8,45671,Executive,5
+1,15.6,A,8,R,WI,2.2,45671,Executive,5
+1,15.6,B,8,R,WI,1.91,45671,Executive,5
+3,15.6,B,8,Q,LI,2.32,45711,Executive,5
+3,15.6,B,8,Q,WI,2.3,45749,Executive,5
+1,15.6,B,8,R,LI,2.3,46291,Executive,5
+1,15.6,B,8,R,WI,2.2,46291,Executive,5
+1,15.6,C,8,Q,WI,2.05,46369,Executive,5
+1,15.6,B,4,Q,LI,2.3,46439,Executive,5
+2,15.6,B,4,Q,WI,2.25,46446,Executive,5
+1,15.6,B,8,Q,WI,1.96,46446,Executive,5
+1,15.6,B,4,Q,WI,2.1,46446,Executive,5
+1,14,B,8,R,NO,1.7,46446,Executive,5
+1,14,B,4,R,WI,1.7,46446,Executive,5
+3,15.6,C,8,Q,LI,2.2,46516,Executive,5
+1,15.6,B,4,R,WI,2.1,46679,Executive,5
+1,15.6,C,12,Q,WI,2.2,47222,Executive,5
+1,15.6,B,4,Q,WI,2.4,47222,Executive,5
+3,15.6,B,4,Q,WI,1.86,47502,Executive,5
+1,15.6,B,4,Q,WI,2.2,47532,Executive,5
+1,15.6,A,4,Q,WI,2.18,47610,Executive,5
+3,11.6,A,4,P,CH,1.4,47687,Executive,5
+2,15.6,A,4,Q,WI,2.18,47912,Executive,5
+1,15.6,B,8,Q,WI,1.91,47996,Executive,5
+1,15.6,B,6,Q,WI,1.91,47997,Executive,5
+1,15.6,B,4,Q,WI,2.23,47997,Executive,5
+1,14,B,8,R,WI,1.5,47997,Executive,5
+1,15.6,B,4,R,WI,2.1,48187,Executive,5
+1,15.6,B,8,Q,WI,2.04,48773,Executive,5
+1,14,B,4,Q,WI,1.74,48773,Executive,5
+1,15.6,B,8,R,NO,2.2,48773,Executive,5
+1,15.6,B,4,R,WI,2.05,48850,Executive,5
+1,14,B,4,R,WI,1.8,49315,Executive,5
+1,15.6,B,8,Q,WI,2.36,49547,Executive,5
+2,15.6,B,4,Q,WI,2.3,49548,Executive,5
+1,15.6,B,8,R,WI,1.86,49548,Executive,5
+1,15.6,C,4,R,WI,2.2,49548,Executive,5
+1,13.3,B,6,R,WI,1.5,49549,Executive,5
+1,17.3,A,8,R,WI,2.5,49618,Executive,5
+1,15.6,B,8,Q,LI,2.2,50168,Programmer,6
+3,15.6,B,12,Q,WI,2.25,50323,Programmer,6
+1,17.3,B,6,R,WI,2.8,50323,Programmer,6
+1,15.6,B,6,R,WI,1.95,50323,Programmer,6
+1,13.3,B,8,R,WI,1.62,50323,Programmer,6
+2,15.6,B,4,R,WI,2.3,50323,Programmer,6
+1,13.3,B,4,R,WI,1.71,50323,Programmer,6
+3,15.6,B,6,Q,WI,2.1,50401,Programmer,6
+1,17.3,B,4,Q,WI,3,50789,Programmer,6
+3,17.3,B,6,R,WI,2.71,50789,Programmer,6
+1,13.3,B,4,R,WI,1.6,50789,Programmer,6
+1,15.6,B,4,R,WI,2.18,50944,Programmer,6
+1,17.3,A,4,Q,WI,2.36,51099,Programmer,6
+1,15.6,C,8,R,WI,1.91,51099,Programmer,6
+3,13.3,B,8,R,WI,1.55,51099,Programmer,6
+3,14,B,6,R,WI,1.58,51099,Programmer,6
+1,15.6,B,8,R,WI,2.2,51099,Programmer,6
+1,15.6,C,12,S,WI,2.15,51099,Programmer,6
+1,15.6,C,8,R,NO,2.2,51100,Programmer,6
+1,15.6,B,8,R,WI,1.9,51409,Programmer,6
+1,15.6,A,8,R,WI,2,51564,Programmer,6
+1,15.6,B,4,R,WI,2.1,51834,Programmer,6
+3,15.6,B,4,R,WI,2,51874,Programmer,6
+3,15.6,C,8,R,WI,2.2,51874,Programmer,6
+1,15.6,B,8,Q,WI,2.2,52340,Programmer,6
+1,13.3,B,4,R,WI,1.49,52340,Programmer,6
+1,15.6,B,8,Q,LI,2.2,52522,Programmer,6
+1,15.6,B,4,R,WI,2.2,52882,Programmer,6
+2,15.6,B,4,R,WI,2.3,53099,Programmer,6
+2,15.6,B,4,Q,WI,2.18,53114,Programmer,6
+3,15.6,C,8,Q,NO,2.2,53115,Programmer,6
+2,15.6,B,4,R,WI,2.05,53115,Programmer,6
+1,15.6,B,4,R,WI,2.04,53115,Programmer,6
+1,15.6,C,8,Q,WI,2.2,53425,Programmer,6
+3,15.6,C,4,R,WI,2.1,53425,Programmer,6
+1,13.3,B,8,R,WI,1.6,53425,Programmer,6
+1,15.6,A,4,R,WI,1.63,53425,Programmer,6
+1,13.3,A,4,R,WI,1.65,53425,Programmer,6
+1,15.6,B,8,R,WI,1.86,53503,Programmer,6
+1,15.6,B,12,Q,WI,2.2,53812,Programmer,6
+2,15.6,B,6,Q,WI,2.4,53890,Programmer,6
+1,17.3,B,8,Q,NO,2.8,54123,Programmer,6
+1,17.3,B,6,Q,WI,2.71,54200,Programmer,6
+3,17.3,A,4,Q,WI,2.5,54200,Programmer,6
+3,14,B,4,Q,WI,1.7,54200,Programmer,6
+1,15.6,C,8,R,WI,1.83,54200,Programmer,6
+3,15.6,C,8,R,WI,2.45,54200,Programmer,6
+1,13.3,B,4,R,WI,1.32,54200,Programmer,6
+3,14,B,4,R,WI,1.63,54200,Programmer,6
+1,17.3,B,4,Q,WI,3,54433,Programmer,6
+1,15.6,B,4,R,WI,2.1,54704,Programmer,6
+3,15.6,B,4,R,WI,2.18,54903,Programmer,6
+1,15.6,C,8,R,LI,2.4,54976,Programmer,6
+1,15.6,C,12,S,WI,2.3,55291,Programmer,6
+1,15.6,B,8,R,WI,2.18,55363,Programmer,6
+1,15.6,B,8,R,WI,2.1,55519,Programmer,6
+1,17.3,B,6,R,WI,2.8,55751,Programmer,6
+3,15.6,B,8,R,WI,2.2,55751,Programmer,6
+3,15.6,C,8,R,WI,1.91,55751,Programmer,6
+1,13.3,B,4,R,WI,1.49,55751,Programmer,6
+1,15.6,B,4,R,WI,2.1,55984,Programmer,6
+1,14,B,4,R,WI,1.63,55984,Programmer,6
+1,13.3,B,4,Q,WI,1.49,56294,Programmer,6
+3,15.6,B,8,R,LI,1.98,56294,Programmer,6
+1,15.6,B,8,Q,WI,2.13,56449,Programmer,6
+3,15.6,B,4,R,WI,1.95,56596,Programmer,6
+2,13.3,B,4,R,WI,1.44,56992,Programmer,6
+1,15.6,C,8,Q,LI,2.14,56997,Programmer,6
+1,14,A,4,R,WI,1.6,57059,Programmer,6
+3,15.6,C,4,Q,WI,2.18,57302,Programmer,6
+1,15.6,A,8,Q,WI,2,57302,Programmer,6
+1,15.6,B,8,R,WI,2.2,57302,Programmer,6
+3,15.6,B,8,R,WI,2.2,57302,Programmer,6
+1,15.6,B,8,R,WI,2.05,57302,Programmer,6
+3,14,A,8,R,WI,1.79,57380,Programmer,6
+1,15.6,C,8,R,WI,2.23,57535,Programmer,6
+1,11.6,A,4,Q,WI,1.63,57690,Programmer,6
+2,15.6,C,8,Q,WI,2.2,57767,Programmer,6
+1,15.6,C,8,Q,WI,3.2,57767,Programmer,6
+3,15.6,C,8,R,WI,2.1,57767,Programmer,6
+2,15.6,C,8,Q,WI,2.36,58077,Programmer,6
+1,15.6,B,4,R,WI,2.2,58077,Programmer,6
+1,15.6,B,8,R,WI,2.37,58077,Programmer,6
+1,15.6,C,8,Q,LI,2.2,58078,Programmer,6
+1,13.3,B,4,R,WI,1.49,58465,Programmer,6
+3,14,B,4,R,WI,1.76,58543,Programmer,6
+1,15.6,B,8,R,WI,2.02,58853,Programmer,6
+1,15.6,C,8,Q,WI,2.13,59535,Programmer,6
+1,15.6,B,8,Q,WI,2,59628,Programmer,6
+1,14,B,8,R,WI,1.6,59706,Programmer,6
+2,11.6,A,4,Q,WI,1.45,60094,Data Scientist,7
+1,15.6,B,4,R,WI,2.2,60171,Data Scientist,7
+1,15.6,C,8,Q,LI,2.33,60394,Data Scientist,7
+1,15.6,D,8,R,LI,2.4,60404,Data Scientist,7
+1,15.6,C,8,R,NO,2.4,60404,Data Scientist,7
+3,15.6,C,4,S,WI,1.85,60404,Data Scientist,7
+1,15.6,B,4,R,WI,2.1,60481,Data Scientist,7
+1,14,B,4,R,WI,1.87,60869,Data Scientist,7
+1,15.6,C,8,R,WI,2.3,61024,Data Scientist,7
+1,15.6,B,8,R,WI,2.6,61179,Data Scientist,7
+1,15.6,C,6,R,WI,2.2,61179,Data Scientist,7
+1,13.3,C,8,S,WI,1.6,61180,Data Scientist,7
+1,15.6,B,8,Q,WI,2.18,61242,Data Scientist,7
+1,15.6,B,8,R,WI,2,61489,Data Scientist,7
+1,15.6,B,8,R,WI,2.1,61567,Data Scientist,7
+3,15.6,B,8,R,WI,2.18,61644,Data Scientist,7
+1,15.6,B,8,R,WI,2.2,61831,Data Scientist,7
+1,15.6,C,8,R,LI,2.4,61877,Data Scientist,7
+1,15.6,C,4,Q,WI,2.2,61954,Data Scientist,7
+1,15.6,B,8,R,WI,2.2,61954,Data Scientist,7
+1,15.6,B,8,R,WI,2.67,61954,Data Scientist,7
+1,14,C,8,R,NO,1.5,61954,Data Scientist,7
+1,15.6,B,8,R,WI,2.2,62032,Data Scientist,7
+1,17.3,B,4,Q,WI,3,62420,Data Scientist,7
+2,15.6,B,8,R,WI,2.04,62497,Data Scientist,7
+1,15.6,C,8,R,NO,2.4,62730,Data Scientist,7
+1,15.6,B,8,R,WI,1.95,62807,Data Scientist,7
+1,14,B,8,R,WI,1.63,62962,Data Scientist,7
+1,15.6,C,8,R,WI,2.2,62962,Data Scientist,7
+1,15.6,B,8,R,WI,1.9,63040,Data Scientist,7
+1,15.6,B,8,Q,WI,1.9,63424,Data Scientist,7
+1,13.3,B,8,R,WI,1.62,63505,Data Scientist,7
+1,15.6,C,8,R,WI,2.08,63505,Data Scientist,7
+1,15.6,B,8,R,WI,2.3,63505,Data Scientist,7
+1,15.6,C,8,R,WI,2.56,63505,Data Scientist,7
+3,15.6,B,4,R,WI,1.9,63971,Data Scientist,7
+1,15.6,B,4,R,WI,1.8,64281,Data Scientist,7
+2,15.6,C,8,R,WI,2.5,64281,Data Scientist,7
+1,15.6,B,8,R,WI,2.3,64358,Data Scientist,7
+1,15.6,C,8,R,WI,2.2,64513,Data Scientist,7
+1,15.6,B,8,R,WI,2.18,64823,Data Scientist,7
+1,13.3,B,8,R,WI,1.58,64870,Data Scientist,7
+1,15.6,B,4,R,WI,2.04,65056,Data Scientist,7
+1,13.3,C,8,R,WI,1.62,65056,Data Scientist,7
+1,15.6,C,12,R,WI,2.3,65056,Data Scientist,7
+1,15.6,C,8,R,WI,2.5,65056,Data Scientist,7
+1,15.6,C,8,Q,WI,2.2,65211,Data Scientist,7
+1,15.6,B,8,R,WI,2.33,65444,Data Scientist,7
+1,15.6,D,8,R,LI,2.4,65599,Data Scientist,7
+1,15.6,C,8,R,WI,2.5,65599,Data Scientist,7
+1,15.6,B,8,R,WI,2.04,65638,Data Scientist,7
+1,13.3,B,8,R,WI,1.5,65676,Data Scientist,7
+2,17.3,C,8,Q,NO,2.8,65831,Data Scientist,7
+1,13.3,A,4,R,WI,1.65,65831,Data Scientist,7
+1,15.6,C,4,S,WI,2.37,65901,Data Scientist,7
+2,15.6,B,8,R,WI,2.3,65960,Data Scientist,7
+1,17.3,B,8,Q,WI,3,66219,Data Scientist,7
+3,15.6,C,8,R,WI,2.02,66297,Data Scientist,7
+3,14,B,8,Q,WI,1.87,66457,Data Scientist,7
+1,14,B,8,R,WI,1.6,66607,Data Scientist,7
+1,14,C,8,R,WI,1.87,66607,Data Scientist,7
+2,17.3,C,6,R,WI,2.8,66607,Data Scientist,7
+1,15.6,C,16,Q,WI,2.3,66608,Data Scientist,7
+0,15.6,B,8,R,WI,2,66684,Data Scientist,7
+1,14,B,8,R,WI,1.63,66684,Data Scientist,7
+1,17.3,C,8,Q,LI,2.83,67072,Data Scientist,7
+1,15.6,C,4,R,LI,1.93,67382,Data Scientist,7
+1,15.6,D,8,R,NO,2.4,67382,Data Scientist,7
+1,13.3,C,8,R,WI,1.62,67383,Data Scientist,7
+1,15.6,C,8,R,WI,2.2,67460,Data Scientist,7
+1,15.6,D,8,R,LI,2.5,68158,Data Scientist,7
+1,15.6,C,16,R,WI,2.59,68158,Data Scientist,7
+1,14,B,8,R,WI,1.7,68158,Data Scientist,7
+1,15.6,B,8,R,WI,2.1,68158,Data Scientist,7
+1,15.6,C,8,R,WI,2.56,68158,Data Scientist,7
+1,15.6,C,8,R,WI,2.05,68235,Data Scientist,7
+3,13.3,B,4,R,WI,1.44,68313,Data Scientist,7
+1,14,C,8,R,WI,1.6,68545,Data Scientist,7
+1,17.3,B,8,R,LI,2.8,68933,Data Scientist,7
+0,17.3,C,8,R,NO,2.69,68933,Data Scientist,7
+1,13.3,B,8,R,WI,1.68,68933,Data Scientist,7
+1,15.6,B,8,R,WI,2.04,68933,Data Scientist,7
+1,17.3,B,8,R,WI,2.69,69088,Data Scientist,7
+1,17.3,B,8,R,WI,2.5,69476,Data Scientist,7
+1,15.6,C,8,R,WI,2.17,69701,Data Scientist,7
+1,13.3,C,8,R,MA,1.34,69704,Data Scientist,7
+1,15.6,C,16,Q,LI,2.36,69708,Data Scientist,7
+1,15.6,C,8,Q,WI,2.33,69708,Data Scientist,7
+1,15.6,C,8,Q,WI,2.2,69708,Data Scientist,7
+1,15.6,B,12,R,WI,2.2,69708,Data Scientist,7
+1,13.3,B,8,R,WI,1.29,69708,Data Scientist,7
+1,14,B,8,R,WI,1.74,69708,Data Scientist,7
+1,15.6,D,8,R,WI,2.62,69708,Data Scientist,7
+1,15.6,C,8,R,WI,2.04,69786,Data Scientist,7
+2,14,B,8,R,WI,1.56,69941,Data Scientist,7
+1,15.6,C,8,R,WI,2.1,69941,Data Scientist,7
+3,15.6,C,8,R,WI,1.99,70299,Home User,8
+1,15.6,B,4,R,WI,2.07,70561,Home User,8
+2,17.3,B,8,R,WI,2.63,70561,Home User,8
+1,15.6,B,8,R,WI,2.3,70639,Home User,8
+1,15.6,B,4,R,WI,2.18,70755,Home User,8
+1,17.3,B,8,R,WI,2.5,70872,Home User,8
+2,14,B,4,R,WI,1.75,70949,Home User,8
+1,15.6,C,8,R,WI,2.2,71259,Home User,8
+1,14,B,8,S,WI,1.8,71259,Home User,8
+1,17.3,B,8,R,WI,2.5,71569,Home User,8
+1,13.3,B,8,R,WI,1.27,71957,Home User,8
+1,17.3,B,8,R,WI,2.5,71957,Home User,8
+3,15.6,D,8,R,LI,2.62,72035,Home User,8
+1,13.3,C,8,R,WI,1.4,72258,Home User,8
+1,15.6,B,4,S,WI,1.88,72267,Home User,8
+2,13.3,B,8,R,WI,1.28,72500,Home User,8
+3,15.6,C,8,S,WI,1.9,72500,Home User,8
+1,14,B,8,R,WI,1.9,72733,Home User,8
+1,17.3,C,8,R,WI,3,72733,Home User,8
+1,14,B,8,R,WI,1.4,72965,Home User,8
+1,15.6,B,8,R,WI,2,73120,Home User,8
+1,14,B,8,R,WI,2,73275,Home User,8
+3,15.6,B,8,R,WI,1.9,73275,Home User,8
+3,17.3,D,12,R,LI,3,73585,Home User,8
+3,15.6,D,8,R,WI,2.2,73585,Home User,8
+1,15.6,B,12,R,WI,2.2,73585,Home User,8
+1,13.3,B,8,R,WI,1.4,73585,Home User,8
+1,13.3,B,8,R,WI,1.44,73585,Home User,8
+1,13.3,B,8,R,WI,1.41,73585,Home User,8
+1,17.3,C,6,R,WI,2.8,73585,Home User,8
+2,15.6,C,8,R,WI,3,73741,Home User,8
+1,13.3,C,8,R,WI,1.4,74051,Home User,8
+3,15.6,B,8,R,WI,2.06,74051,Home User,8
+1,15.6,C,4,R,WI,1.93,74361,Home User,8
+1,13.3,B,8,R,WI,1.49,74361,Home User,8
+1,15.6,B,8,R,WI,2.08,74361,Home User,8
+3,13.3,B,8,R,WI,1.44,74438,Home User,8
+1,13.3,B,8,R,WI,1.49,74438,Home User,8
+1,15.6,C,8,S,WI,1.98,74516,Home User,8
+1,15.6,C,8,R,WI,2.02,75284,Home User,8
+2,13.3,B,8,R,WI,1.5,75446,Home User,8
+1,17.3,B,8,R,WI,2.5,75757,Home User,8
+2,15.6,B,8,R,WI,1.7,75757,Home User,8
+1,15.6,D,8,R,LI,2.5,75912,Home User,8
+1,15.6,C,8,R,WI,2.36,75912,Home User,8
+1,17.3,B,8,R,WI,2.8,75912,Home User,8
+1,13.3,B,8,R,WI,1.22,75912,Home User,8
+3,15.6,B,8,R,WI,2.04,75912,Home User,8
+1,14,B,8,R,WI,1.95,75989,Home User,8
+1,15.6,C,8,R,WI,2.2,76377,Home User,8
+1,15.6,C,8,R,WI,2.62,76377,Home User,8
+1,14,C,8,R,WI,1.63,76610,Home User,8
+1,13.3,C,8,R,WI,1.12,76687,Home User,8
+1,13.5,D,4,R,WI,1.252,76687,Home User,8
+1,14,B,4,R,WI,2.02,76765,Home User,8
+3,15.6,C,8,R,WI,2.2,77377,Home User,8
+1,13.3,C,8,R,MA,1.35,77385,Home User,8
+1,13.3,B,8,R,WI,1.1,77462,Home User,8
+1,14,B,8,R,WI,1.7,77462,Home User,8
+1,13.3,B,8,R,WI,1.6,77462,Home User,8
+1,17.3,B,12,R,WI,2.77,77462,Home User,8
+1,15.6,D,8,R,WI,2.5,77462,Home User,8
+1,15.6,C,8,R,WI,2.65,77462,Home User,8
+1,15.6,D,4,R,WI,2.4,77462,Home User,8
+1,15.6,C,16,R,WI,2.5,77462,Home User,8
+1,15.6,C,8,S,WI,2.5,77462,Home User,8
+1,13.3,B,8,R,NO,1.3,77532,Home User,8
+1,14,B,4,R,WI,1.7,77695,Home User,8
+1,15.6,C,8,R,WI,1.9,78201,Home User,8
+2,15.6,B,12,S,WI,2.4,78238,Home User,8
+1,13.3,C,8,S,WI,1.4,78315,Home User,8
+1,15.6,B,8,R,WI,2.3,78470,Home User,8
+1,15.6,C,8,R,NO,2.5,78858,Home User,8
+1,17.3,C,8,R,WI,2.5,78936,Home User,8
+2,15.6,C,8,R,WI,2.04,79012,Home User,8
+1,14,B,4,R,WI,1.75,79091,Home User,8
+3,13.3,B,8,R,WI,1.45,79556,Home User,8
+1,15.6,C,8,R,WI,2.2,79691,Home User,8
+1,14,C,8,R,WI,1.63,79944,Home User,8
+3,13.3,B,8,R,WI,1.3,80176,Gamer,9
+1,17.3,D,8,R,WI,3,80564,Gamer,9
+1,15.6,C,8,R,WI,2.2,80874,Gamer,9
+1,17.3,C,8,R,WI,2.5,81029,Gamer,9
+1,15.6,D,8,R,WI,2.5,81262,Gamer,9
+1,15.6,C,16,R,LI,2.02,81339,Gamer,9
+1,15.6,C,8,R,WI,1.56,81339,Gamer,9
+2,14,B,8,R,WI,1.75,81339,Gamer,9
+1,15.6,B,8,R,WI,1.9,81339,Gamer,9
+1,14,C,8,S,WI,1.25,81339,Gamer,9
+1,15.6,C,8,R,WI,1.7,81409,Gamer,9
+2,15.6,B,4,S,WI,2.38,81805,Gamer,9
+1,17.3,C,16,R,WI,2.9,82115,Gamer,9
+1,15.6,D,8,S,WI,2.56,82230,Gamer,9
+1,15.6,B,8,S,WI,2,82503,Gamer,9
+1,15.6,D,16,R,WI,2.5,83666,Gamer,9
+1,13.9,C,8,S,WI,1.38,83666,Gamer,9
+1,14,C,4,S,WI,1.48,83898,Gamer,9
+1,14,C,8,R,WI,1.63,84053,Gamer,9
+1,17.3,B,8,R,WI,2.8,84131,Gamer,9
+1,17.3,C,8,R,WI,2.8,84131,Gamer,9
+3,14,C,8,R,LI,1.64,84441,Gamer,9
+1,13.5,B,4,R,WI,1.252,84441,Gamer,9
+1,15.6,C,8,R,WI,2.2,84441,Gamer,9
+1,14,B,4,S,WI,1.25,84519,Gamer,9
+1,14,C,8,R,WI,2,84829,Gamer,9
+1,14,B,4,R,WI,1.7,84984,Gamer,9
+1,15.6,B,8,R,WI,1.88,84996,Gamer,9
+2,15.6,C,8,R,WI,1.95,85061,Gamer,9
+3,17.3,C,8,R,LI,2.8,85216,Gamer,9
+1,14,C,8,R,LI,1.6,85216,Gamer,9
+1,12.5,B,8,R,WI,1.3,85216,Gamer,9
+1,14,C,8,R,WI,1.25,85216,Gamer,9
+1,14,B,8,R,WI,1.5,85216,Gamer,9
+1,15.6,D,8,R,WI,2.2,85216,Gamer,9
+1,15.6,C,8,R,WI,2.2,85216,Gamer,9
+1,13.3,C,8,S,MA,1.35,85216,Gamer,9
+1,15.6,C,16,S,WI,2.72,85216,Gamer,9
+1,15.6,B,8,S,WI,2.37,85216,Gamer,9
+1,15.6,C,12,S,WI,2.26,85216,Gamer,9
+1,15.6,D,8,S,WI,2.62,85216,Gamer,9
+1,13.3,C,8,R,WI,1.49,85527,Gamer,9
+3,14,B,4,R,WI,1.47,85682,Gamer,9
+3,15.6,D,8,R,WI,2.5,85992,Gamer,9
+1,14,B,8,S,WI,1.75,86536,Gamer,9
+1,15.6,B,8,R,WI,1.9,86611,Gamer,9
+1,15.6,C,8,R,WI,1.7,86690,Gamer,9
+1,13.3,C,8,R,WI,1.38,86767,Gamer,9
+1,15.6,B,8,R,WI,2.2,86767,Gamer,9
+3,14,B,8,S,WI,1.6,86767,Gamer,9
+1,15.6,C,8,R,WI,2.2,86838,Gamer,9
+1,14,C,8,R,WI,2.31,87155,Gamer,9
+1,14,B,8,S,WI,1.6,87365,Gamer,9
+1,15.6,D,16,R,WI,2.4,87543,Gamer,9
+1,13.3,B,8,S,WI,1.2,87543,Gamer,9
+1,15.6,C,8,R,WI,2.16,87646,Gamer,9
+1,15.6,C,16,R,WI,2.2,88008,Gamer,9
+1,14,B,8,S,WI,1.1,88008,Gamer,9
+1,17.3,C,8,R,WI,2.8,88551,Gamer,9
+1,15.6,C,8,R,WI,2.02,88582,Gamer,9
+1,15.6,B,8,R,WI,2,88609,Gamer,9
+1,15.6,B,8,R,WI,1.84,88706,Gamer,9
+1,15.6,B,8,S,WI,2.1,88745,Gamer,9
+1,17.3,C,8,R,WI,2.1,88783,Gamer,9
+1,13.3,C,8,S,WI,1.34,88783,Gamer,9
+1,15.6,D,8,R,NO,2.4,89093,Gamer,9
+2,14,B,4,R,WI,1.95,89093,Gamer,9
+1,14,B,8,R,WI,1.6,89093,Gamer,9
+1,13.3,C,8,S,WI,1.39,89093,Gamer,9
+1,13.3,B,8,S,WI,1.4,89171,Gamer,9
+1,15.6,B,8,S,WI,1.9,89481,Gamer,9
+1,13.3,C,8,R,MA,1.34,89846,Gamer,9
+1,15.6,D,8,R,WI,2.62,89869,Gamer,9
+1,12.5,D,8,S,CH,1.2,89869,Gamer,9
+3,15.6,B,8,R,WI,2.31,90334,Data Scientist,10
+1,12,D,8,S,MA,0.92,90334,Data Scientist,10
+1,17.3,D,8,R,WI,3,90567,Data Scientist,10
+1,15.6,D,8,R,NO,2.5,90644,Data Scientist,10
+2,15.6,D,16,R,WI,2.5,91420,Data Scientist,10
+1,14,C,8,R,WI,1.64,91420,Data Scientist,10
+3,15.6,C,8,S,WI,1.9,91420,Data Scientist,10
+1,14,B,8,R,WI,1.95,91497,Data Scientist,10
+1,15.6,C,16,Q,WI,2.3,91596,Data Scientist,10
+1,14,B,8,S,WI,1.7,91962,Data Scientist,10
+1,17.3,D,8,R,WI,3,92040,Data Scientist,10
+1,15.6,D,8,R,WI,2.5,92195,Data Scientist,10
+1,17.3,D,8,R,WI,3.35,92350,Data Scientist,10
+1,14,B,8,S,WI,1.8,92350,Data Scientist,10
+1,15.6,D,8,R,WI,2.2,92412,Data Scientist,10
+3,14,C,8,R,WI,1.3,92505,Data Scientist,10
+3,15.6,C,8,R,WI,2.65,92660,Data Scientist,10
+1,13.3,B,4,R,WI,1.2,92660,Data Scientist,10
+1,15.6,C,8,S,WI,3.31,92738,Data Scientist,10
+1,13.3,C,16,R,WI,1.49,92815,Data Scientist,10
+1,15.6,B,8,R,NO,1.95,92970,Data Scientist,10
+3,15.6,D,8,R,WI,2.2,92970,Data Scientist,10
+1,17.3,D,8,R,WI,2.7,92970,Data Scientist,10
+1,13.3,B,8,S,WI,1.3,92970,Data Scientist,10
+3,15.6,C,8,S,WI,2.4,92970,Data Scientist,10
+3,17.3,C,8,R,WI,2.63,93048,Data Scientist,10
+2,14,C,8,S,WI,1.6,93436,Data Scientist,10
+1,15.6,C,8,R,WI,2,93591,Data Scientist,10
+1,13.3,B,8,S,WI,1.2,94056,Data Scientist,10
+0,14,C,8,T,MA,1.75,94241,Data Scientist,10
+1,15.6,C,8,S,WI,1.84,94521,Data Scientist,10
+1,15.6,C,16,R,WI,2.2,94540,Data Scientist,10
+1,15.6,C,8,S,WI,2,94909,Data Scientist,10
+3,14,B,8,R,WI,1.56,95297,Data Scientist,10
+1,15.6,C,8,T,MA,2.1,95340,Data Scientist,10
+1,12.5,B,4,S,WI,1.26,96460,Data Scientist,10
+3,15.6,D,8,R,WI,2.5,96847,Data Scientist,10
+3,15.6,D,12,S,WI,2.62,96847,Data Scientist,10
+1,15.6,D,16,R,WI,2.56,96868,Data Scientist,10
+1,15.6,B,8,S,WI,2,97545,Data Scientist,10
+3,15.6,C,16,R,WI,1.5,97855,Data Scientist,10
+1,15.6,C,8,R,WI,2.16,97855,Data Scientist,10
+1,12,D,8,S,MA,0.92,97886,Data Scientist,10
+1,15.6,D,8,R,WI,2.5,98088,Data Scientist,10
+2,14,B,4,S,WI,1.95,98088,Data Scientist,10
+1,14,C,8,R,WI,1.48,98321,Data Scientist,10
+3,13.3,C,8,S,WI,1.3,98321,Data Scientist,10
+1,17.3,C,24,S,WI,4.33,98398,Data Scientist,10
+1,15.6,C,8,S,WI,1.9,98398,Data Scientist,10
+1,17.3,C,16,R,WI,2.5,98553,Data Scientist,10
+1,12.3,C,8,R,CH,1.1,98864,Data Scientist,10
+1,13.3,C,16,R,WI,1.62,99174,Data Scientist,10
+3,17.3,C,32,S,WI,3.58,99174,Data Scientist,10
+1,14,C,8,S,WI,1.64,99230,Data Scientist,10
+1,17.3,C,8,R,WI,2.63,99251,Data Scientist,10
+3,13.3,B,4,S,WI,1.05,99639,Data Scientist,10
+1,14,C,8,R,WI,1.48,100182,Executive,11
+3,15.6,D,16,S,WI,2.4,100337,Executive,11
+3,15.6,C,8,S,WI,1.84,100569,Executive,11
+1,15.6,C,8,S,WI,1.88,100647,Executive,11
+1,17.3,C,16,R,WI,2.8,100724,Executive,11
+3,15.6,C,16,S,WI,2.5,100724,Executive,11
+3,15.6,D,16,S,WI,2.2,100724,Executive,11
+1,15.6,D,8,S,WI,3.2,100724,Executive,11
+1,15.6,C,8,S,WI,2,100724,Executive,11
+2,17.3,D,8,S,WI,3.2,100724,Executive,11
+2,11.3,D,8,S,WI,1.1,100724,Executive,11
+3,15.6,C,12,S,WI,2.06,100724,Executive,11
+2,15.6,C,12,S,WI,2.19,100724,Executive,11
+1,15.6,D,8,S,WI,2,100724,Executive,11
+1,15.6,C,8,S,WI,1.84,101112,Executive,11
+1,13.3,B,8,S,WI,1.1,101965,Executive,11
+1,13.3,C,8,S,WI,1.34,102585,Executive,11
+1,14,C,8,R,WI,2,103438,Executive,11
+1,12.5,C,8,R,WI,1.26,103516,Executive,11
+1,15.6,D,8,S,WI,2.24,103826,Executive,11
+1,13.3,C,8,S,MA,1.37,103880,Executive,11
+1,14,B,8,S,WI,2.02,103904,Executive,11
+3,13.5,B,8,S,WI,1.252,103904,Executive,11
+1,14,B,8,S,WI,1.65,104291,Executive,11
+3,17.3,D,8,S,WI,2.7,104561,Executive,11
+3,15.6,C,8,R,WI,1.84,104601,Executive,11
+1,15.6,D,16,S,WI,2.65,104601,Executive,11
+1,17.3,D,8,S,WI,2.7,104601,Executive,11
+1,15.6,D,16,S,WI,2.6,104601,Executive,11
+2,15.6,B,8,S,WI,2.3,104601,Executive,11
+1,13,B,8,S,WI,1.05,104601,Executive,11
+1,13.9,C,8,S,WI,1.38,104601,Executive,11
+3,13.3,C,8,S,WI,1.11,104601,Executive,11
+1,15.6,D,8,T,WI,1.99,104679,Executive,11
+3,13.3,B,8,S,WI,1.1,105299,Executive,11
+1,13.3,C,8,S,WI,1.2,105687,Executive,11
+1,14,B,8,R,WI,1.7,105765,Executive,11
+1,15.6,B,8,S,WI,2.23,106152,Executive,11
+1,15.6,C,8,S,WI,1.93,106152,Executive,11
+2,17.3,C,12,R,WI,2.2,106222,Executive,11
+1,15.6,C,8,R,WI,1.9,106773,Executive,11
+1,13.3,C,8,S,WI,1.23,106928,Executive,11
+1,17.3,D,16,S,WI,3.35,106928,Executive,11
+1,15.6,C,8,S,WI,2,107626,Executive,11
+1,15.6,C,8,S,WI,1.84,107703,Executive,11
+1,12.5,C,8,S,WI,1.26,107703,Executive,11
+1,17.3,C,16,R,WI,2.8,108246,Executive,11
+1,15.6,D,16,S,NO,2.4,108401,Executive,11
+1,13.3,C,8,R,WI,1.32,108478,Executive,11
+1,15.6,D,8,S,WI,3.2,108478,Executive,11
+2,17.3,B,8,S,WI,2.75,108478,Executive,11
+1,15.6,C,8,S,WI,2.2,108478,Executive,11
+1,13.3,B,8,S,WI,1.37,108478,Executive,11
+2,13.3,C,16,S,WI,1.42,108478,Executive,11
+1,13.3,C,8,S,WI,1.2,108478,Executive,11
+1,13.3,B,8,S,WI,1.26,108478,Executive,11
+1,13.3,B,8,S,WI,1.23,108478,Executive,11
+1,15.6,C,16,S,NO,1.95,108552,Executive,11
+1,15.6,C,16,R,WI,2.4,108789,Executive,11
+1,17.3,D,16,S,WI,2.9,109099,Executive,11
+1,17.3,D,8,S,WI,2.7,109254,Executive,11
+1,13.3,C,8,S,MA,1.37,110029,Executive,11
+3,15.6,C,16,S,WI,1.93,110623,Executive,11
+1,14,C,8,S,WI,1.36,110650,Executive,11
+1,15.6,D,8,S,WI,2.31,110650,Executive,11
+1,12.5,B,8,S,WI,1.36,110805,Executive,11
+1,13.3,C,8,R,WI,1.2,112355,Executive,11
+1,15.6,D,16,S,WI,2.2,112355,Executive,11
+2,13.3,B,8,S,WI,1.2,112425,Executive,11
+1,13.3,B,8,S,WI,1.2,113208,Executive,11
+3,14,B,8,S,WI,1.65,113596,Executive,11
+1,15.6,C,16,R,WI,1.63,113829,Executive,11
+1,14,C,8,S,WI,1.54,113829,Executive,11
+3,12.5,B,8,P,WI,1.36,114154,Executive,11
+1,14,C,8,S,WI,1.7,114294,Executive,11
+1,13.3,B,8,S,WI,1.05,114372,Executive,11
+1,15.6,D,16,S,WI,2.62,114682,Executive,11
+3,14,C,8,S,WI,1.58,114759,Executive,11
+3,12.5,C,8,S,WI,1.26,114992,Executive,11
+1,17.3,D,8,S,WI,2.7,115284,Executive,11
+2,14,C,8,S,WI,1.7,115456,Executive,11
+1,14,C,16,S,WI,1.3,115922,Executive,11
+1,17.3,D,16,S,WI,3.78,116155,Executive,11
+1,15.6,D,16,S,WI,3.2,116232,Executive,11
+1,15.6,D,16,S,WI,2.65,116232,Executive,11
+1,13.3,B,8,S,WI,1.29,116232,Executive,11
+1,13,C,8,S,WI,1.05,116232,Executive,11
+3,14,B,8,S,WI,1.32,116232,Executive,11
+1,13.3,B,8,S,WI,0.81,116232,Executive,11
+1,13.3,C,8,S,WI,1.1,116232,Executive,11
+1,13.3,B,8,S,WI,1.29,116232,Executive,11
+3,13.3,C,8,S,WI,1.19,116232,Executive,11
+1,14,C,8,S,WI,1.43,116310,Executive,11
+1,17.3,D,16,S,WI,3,116620,Executive,11
+1,12,C,8,S,MA,0.92,117085,Executive,11
+1,13.3,C,8,S,MA,1.37,117748,Executive,11
+1,17.3,D,16,S,WI,2.9,118559,Executive,11
+1,15.6,D,8,S,WI,2.31,118946,Executive,11
+2,13.3,B,8,S,WI,1.2,119024,Executive,11
+1,14,B,8,S,WI,1.25,119024,Executive,11
+1,15.6,C,16,S,WI,1.93,119209,Executive,11
+1,17.3,D,16,S,WI,3.2,120109,Programmer,12
+1,17.3,C,16,S,WI,2.77,120109,Programmer,12
+1,12.3,C,8,S,CH,1.1,120885,Programmer,12
+1,15.6,C,8,S,WI,2.59,121040,Programmer,12
+3,12.5,B,4,S,WI,1.26,122436,Programmer,12
+0,13.3,C,8,S,WI,1.2,122436,Programmer,12
+1,12.5,C,8,S,WI,1.36,122823,Programmer,12
+1,17.3,D,16,S,WI,3,123366,Programmer,12
+2,17.3,D,16,S,WI,2.7,123986,Programmer,12
+1,13.3,C,8,S,WI,1.31,123986,Programmer,12
+1,13.3,B,8,S,WI,1.21,123986,Programmer,12
+1,13.9,B,8,S,WI,1.4,123986,Programmer,12
+1,15.6,C,16,S,WI,1.88,124681,Programmer,12
+1,13.3,B,8,S,WI,1.21,126313,Programmer,12
+2,14,B,8,S,WI,1.36,127088,Programmer,12
+1,13.3,C,8,R,WI,1.21,127863,Programmer,12
+1,15.6,C,8,S,WI,2.3,127863,Programmer,12
+2,13.3,C,16,S,WI,1.22,127863,Programmer,12
+1,13.3,C,16,S,WI,0.81,127863,Programmer,12
+1,14,C,8,S,WI,1.32,127941,Programmer,12
+1,12.5,C,8,S,WI,1.36,127941,Programmer,12
+1,15.6,D,8,S,WI,2.3,128329,Programmer,12
+1,12.5,B,8,S,WI,1.26,129414,Programmer,12
+1,12.5,B,8,S,WI,1.34,129492,Programmer,12
+1,13.3,B,8,R,WI,1.05,129647,Programmer,12
+3,14,C,12,S,WI,1.4,129724,Programmer,12
+1,15.6,D,16,S,WI,2.62,130190,Programmer,12
+1,14,C,8,P,WI,1.36,130267,Programmer,12
+1,14,C,8,S,WI,1.17,130782,Programmer,12
+2,12.5,C,8,S,WI,1.6,131043,Programmer,12
+1,17.3,D,8,S,WI,3.2,131430,Programmer,12
+1,15.6,D,8,S,WI,2,131740,Programmer,12
+1,17.3,D,12,S,WI,3.78,131740,Programmer,12
+2,15,C,8,S,WI,1.17,131740,Programmer,12
+1,15.6,D,16,S,WI,2.5,131740,Programmer,12
+3,13.3,B,4,S,WI,1.28,131818,Programmer,12
+1,15.6,C,8,S,WI,1.99,134067,Programmer,12
+1,15.6,D,8,S,WI,2.6,134785,Programmer,12
+1,13.3,C,16,S,WI,1.2,135462,Programmer,12
+1,13.3,C,16,S,WI,1.1,135610,Programmer,12
+1,14,C,8,R,WI,1.48,135617,Programmer,12
+3,17.3,D,16,S,WI,2.99,135617,Programmer,12
+1,15.6,D,16,S,WI,3.2,135617,Programmer,12
+1,17.3,D,12,S,WI,3.74,135617,Programmer,12
+1,14,C,16,S,WI,1.38,135617,Programmer,12
+1,15.6,C,8,S,WI,2.06,135617,Programmer,12
+1,14,C,8,S,WI,1.36,135695,Programmer,12
+1,13.3,C,8,S,WI,1.37,136270,Programmer,12
+1,12.5,C,8,S,WI,1.36,136470,Programmer,12
+1,15.6,D,8,S,WI,2.06,136703,Programmer,12
+1,14,C,16,S,WI,1.47,136781,Programmer,12
+1,17.3,C,8,S,WI,2.73,137246,Programmer,12
+3,14,C,8,S,WI,1.36,137634,Programmer,12
+2,15.6,D,8,S,WI,2.23,137866,Programmer,12
+3,12.5,C,8,S,WI,1.1,138797,Programmer,12
+1,12.5,C,16,R,WI,1.36,139417,Programmer,12
+1,15,C,16,R,WI,1.71,139494,Programmer,12
+1,15.6,D,16,S,WI,2.5,139494,Programmer,12
+1,17.3,D,12,S,WI,2.62,139494,Programmer,12
+3,15.6,D,16,S,WI,2.4,139494,Programmer,12
+2,17.3,C,16,S,WI,2.73,139494,Programmer,12
+3,15.6,C,16,S,WI,2.3,139494,Programmer,12
+1,17.3,D,16,S,WI,4.3,139494,Programmer,12
+1,12.5,C,16,S,WI,1.29,139494,Programmer,12
+1,13.3,B,4,S,WI,1.28,139494,Programmer,12
+2,14,B,8,S,WI,1.32,139494,Programmer,12
+2,13.3,C,16,S,WI,1.3,139494,Programmer,12
+1,13.5,C,8,S,WI,1.25,139494,Programmer,12
+1,13.3,B,8,S,MA,1.37,139851,Programmer,12
+1,15.6,D,8,S,WI,2,141123,Programmer,12
+3,13.3,B,8,S,WI,1.37,141511,Programmer,12
+1,15.6,D,8,T,WI,2,141821,Programmer,12
+1,13.3,B,8,S,WI,1.42,142817,Programmer,12
+1,15.6,D,16,S,WI,2.65,143061,Programmer,12
+1,13.9,C,16,R,WI,1.4,143371,Programmer,12
+1,13.9,C,8,R,WI,1.37,143371,Programmer,12
+2,15,C,16,R,WI,1.23,143371,Programmer,12
+1,15.6,C,16,S,WI,2.18,143837,Programmer,12
+1,14,C,12,S,WI,1.4,144069,Programmer,12
+1,14,C,8,T,WI,1.32,144147,Programmer,12
+1,12.5,C,16,T,WI,1.18,144147,Programmer,12
+1,17.3,C,8,S,WI,3.14,144301,Programmer,12
+3,14,C,16,S,WI,1.24,144612,Programmer,12
+1,13.5,C,8,S,WI,1.252,144833,Programmer,12
+1,13.3,C,16,S,WI,1.2,144922,Programmer,12
+1,13.3,B,8,S,WI,1.23,144922,Programmer,12
+1,14,C,8,S,WI,1.54,145000,Programmer,12
+1,14,C,8,S,WI,1.1,145232,Programmer,12
+3,14,B,8,S,WI,1.13,145388,Programmer,12
+1,13.3,C,16,S,WI,1.36,145543,Programmer,12
+1,17.3,D,16,S,WI,2.8,146551,Programmer,12
+1,14,D,16,S,WI,1.6,146628,Programmer,12
+2,15.6,D,16,S,WI,2.1,147248,Programmer,12
+1,13.3,C,8,S,WI,1.24,147248,Programmer,12
+3,13.3,C,16,S,WI,1.22,147248,Programmer,12
+1,14,C,8,S,WI,0.98,147248,Programmer,12
+1,15.6,D,16,S,WI,2,147248,Programmer,12
+1,15.6,D,16,S,WI,2.06,147248,Programmer,12
+1,15.6,B,8,S,WI,1.84,147326,Programmer,12
+1,14,C,16,S,WI,1.1,147326,Programmer,12
+3,14,D,8,T,WI,1.96,147559,Programmer,12
+1,17.3,D,8,S,WI,3.14,147946,Programmer,12
+3,12.5,D,8,S,WI,0.97,147946,Programmer,12
+1,15.6,D,8,S,WI,2.67,149265,Programmer,12
+3,17.3,C,16,T,WI,4.2,150040,Gamer,13
+1,14,D,8,T,WI,1.7,150660,Gamer,13
+1,13.3,C,8,T,WI,1.21,151125,Gamer,13
+3,12.5,C,16,S,WI,0.91,151203,Gamer,13
+2,13.3,C,8,S,WI,1.37,151203,Gamer,13
+1,13.3,C,8,S,MA,1.37,151893,Gamer,13
+3,14,C,8,S,WI,1.5,152209,Gamer,13
+1,15.6,B,8,S,WI,1.95,152210,Gamer,13
+1,13.3,D,16,S,WI,1.16,152366,Gamer,13
+1,13.3,C,8,T,WI,1.37,152754,Gamer,13
+1,13.3,C,16,S,WI,1.28,153142,Gamer,13
+1,15.6,C,16,T,WI,2.17,153142,Gamer,13
+3,15.6,C,16,T,WI,2.4,153142,Gamer,13
+1,15.6,D,16,T,WI,1.8,153762,Gamer,13
+1,15.6,D,8,T,WI,2.23,154537,Gamer,13
+1,17.3,D,12,T,WI,3.35,155002,Gamer,13
+1,13.3,C,8,T,WI,1.29,155002,Gamer,13
+1,13.3,C,8,S,WI,1.24,156096,Gamer,13
+1,12.5,D,8,S,WI,0.97,156166,Gamer,13
+1,13.3,C,8,T,WI,1.37,157019,Gamer,13
+1,15.6,D,16,S,WI,2.06,157206,Gamer,13
+1,17.3,D,16,T,WI,2.9,157329,Gamer,13
+1,13.3,B,8,T,MA,1.37,158182,Gamer,13
+1,17.3,D,8,T,WI,4.42,158647,Gamer,13
+3,14,C,8,T,WI,1.13,158879,Gamer,13
+3,17.3,D,16,T,WI,2.73,158949,Gamer,13
+1,15.6,C,16,T,WI,3.21,159035,Gamer,13
+1,15.6,D,8,T,WI,3.14,160112,Gamer,13
+1,15.6,D,8,T,WI,2.67,162059,Gamer,13
+3,15.6,D,16,T,WI,1.8,162406,Gamer,13
+1,14,C,16,S,WI,1.1,162756,Gamer,13
+1,15.6,C,16,S,WI,1.08,162756,Gamer,13
+1,15.6,D,16,T,WI,2.8,162756,Gamer,13
+1,13.9,C,16,T,WI,1.4,162756,Gamer,13
+1,17.3,D,16,T,WI,2.9,164540,Gamer,13
+1,15.6,C,8,T,WI,2,165548,Gamer,13
+1,15.4,C,16,T,WI,2.04,165933,Gamer,13
+1,12.3,C,16,S,CH,1.1,170510,Gamer,13
+1,17.3,C,16,S,WI,4.14,170510,Gamer,13
+1,17.3,D,16,S,WI,3.25,170510,Gamer,13
+3,13.3,C,16,T,WI,1.29,173690,Gamer,13
+1,15.6,D,16,T,WI,1.8,173806,Gamer,13
+1,15.6,C,8,T,WI,2,174387,Gamer,13
+1,17.3,D,16,T,WI,2.8,174387,Gamer,13
+1,15.6,D,16,T,WI,2.94,175850,Gamer,13
+2,13.3,B,8,S,WI,1.28,176559,Gamer,13
+1,14,C,8,T,WI,1.13,176946,Gamer,13
+3,15.6,C,8,S,WI,1.09,178264,Gamer,13
+1,15.6,D,16,T,WI,1.8,178264,Gamer,13
+1,17.3,D,16,T,WI,4.2,178264,Gamer,13
+1,14,C,16,T,WI,1.7,178264,Gamer,13
+1,14,B,8,T,WI,1.42,180668,Gamer,14
+1,15.6,C,16,T,WI,2.17,181289,Gamer,14
+1,17.3,C,16,T,WI,4.5,182141,Gamer,14
+1,17.3,C,16,T,WI,4.3,182219,Gamer,14
+1,15.6,C,16,T,WI,2.5,183770,Gamer,14
+1,14,C,24,T,WI,1.32,184700,Gamer,14
+1,15.6,D,16,S,WI,2.06,185863,Gamer,14
+1,15.6,D,16,S,WI,2.06,186018,Gamer,14
+1,15.6,D,8,T,WI,1.78,186716,Gamer,14
+1,17.3,D,16,T,WI,2.9,187259,Gamer,14
+3,15.6,D,16,T,WI,2.6,187569,Gamer,14
+2,17.3,D,16,T,WI,2.9,187569,Gamer,14
+1,15.4,C,16,T,MA,1.83,189195,Gamer,14
+1,15.6,C,16,R,WI,2.3,189585,Gamer,14
+1,15.6,D,16,T,WI,2.5,189895,Gamer,14
+3,17.3,D,16,T,WI,2.43,189895,Gamer,14
+1,13.3,C,16,T,WI,1.29,189895,Gamer,14
+1,14,C,16,T,WI,1.14,189973,Gamer,14
+1,17.3,D,16,T,WI,4.42,190465,Gamer,14
+1,14,C,16,S,WI,1.36,193772,Gamer,14
+1,17.3,D,16,T,WI,4.14,193772,Gamer,14
+1,14,C,8,T,WI,1.13,193772,Gamer,14
+1,13.3,C,16,T,WI,1.21,193772,Gamer,14
+1,17.3,D,16,T,WI,4.36,194239,Gamer,14
+1,14,C,16,T,WI,1.42,194548,Gamer,14
+1,15.4,C,16,T,MA,1.83,196754,Gamer,14
+1,13.3,C,8,T,WI,1.28,198425,Gamer,14
+1,13.5,C,16,T,WI,1.25,200751,Gamer,14
+1,14,C,8,T,WI,1.42,200829,Gamer,14
+1,14,D,16,T,WI,1.95,201526,Gamer,14
+1,14,C,16,T,WI,1.13,203543,Gamer,14
+1,15.6,D,32,T,WI,2.06,204628,Gamer,14
+3,17.3,C,16,T,WI,2.43,205403,Gamer,14
+1,17.3,C,32,T,WI,4.6,206489,Gamer,14
+1,17.3,D,16,T,WI,4.42,209280,Gamer,14
+1,15.6,D,8,T,WI,1.78,210288,Gamer,14
+1,17.3,D,16,T,WI,4.14,211607,Gamer,14
+3,17.3,C,16,T,WI,4.36,213855,Gamer,14
+1,15.6,D,16,T,WI,3.21,215145,Gamer,14
+1,13.3,C,32,R,WI,1.05,217034,Gamer,14
+1,18.4,C,32,T,WI,4.4,217034,Gamer,14
+1,17.3,D,16,T,WI,4.42,217034,Gamer,14
+1,17.3,C,32,T,WI,3.8,217034,Gamer,14
+1,17.3,C,32,T,WI,4.42,217112,Gamer,14
+3,15.6,D,16,T,WI,3.49,218178,Gamer,14
+1,14,C,16,T,WI,1.42,218973,Gamer,14
+1,15.4,C,16,T,WI,1.83,221609,Gamer,14
+1,15.6,D,16,T,WI,4.42,222461,Gamer,14
+1,17.3,D,16,T,WI,3.42,223692,Gamer,14
+1,14,D,16,T,WI,1.95,224788,Gamer,14
+1,15.6,D,24,T,WI,2.24,230139,Gamer,14
+1,17.3,D,8,T,WI,3.4,232542,Gamer,14
+1,17.3,D,16,T,WI,3.6,232542,Gamer,14
+1,17.3,D,16,T,WI,4.42,233610,Gamer,14
+1,15.6,D,16,T,WI,2.8,236885,Gamer,14
+3,17.3,D,32,T,WI,4.42,238272,Gamer,14
+1,12.5,D,8,S,WI,1.09,240374,Gamer,14
+1,17.3,D,32,T,WI,4.42,244047,Gamer,14
+1,17.3,D,32,T,WI,4.42,244173,Gamer,14
+2,17.3,D,16,T,WI,4.36,244561,Gamer,14
+1,15.6,C,16,T,WI,2.5,255804,Gamer,14
+1,17.3,D,32,T,WI,4.42,278276,Gamer,14
+1,17.3,D,32,T,WI,4.7,301631,Gamer,14
+1,17.3,D,16,T,WI,3,340323,Gamer,14
+1,15.6,D,32,T,WI,2.5,379868,Gamer,14
+1,17.3,D,32,T,WI,3.49,426392,Gamer,14
+1,17.3,D,32,T,WI,3.49,472916,Gamer,14

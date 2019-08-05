@@ -1,18 +1,38 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class='row'>
-        <div class='col-12 col-md-6'>
-                <h1>{{ object.title }}</h1>
-                {{ object.timestamp|timesince }} ago
-                {{ object.processor|linebreaks }}<br/>
-                {% if object.image %}
-                    <img src='{{ object.image.url }}' class='img-fluid' />
-                {% endif %}
+<div class='row'>
+    <div class='col-12 col-md-6'>
+            <h1>{{ object.title }}</h1>
+            {{ object.timestamp|timesince }} ago
+            {{ object.processor|linebreaks }}<br/>
+            {% if object.image %}
+                <img src='{{ object.image.url }}' class='img-fluid' />
+            {% endif %}
+    </div>
+    <div class='col-12 col-md-6'>
+        {% include 'products/snippets/update-cart.html' with product=object cart=cart%}
+    </div>
+</div>
+
+<!-- Product Recommendations according to previous searches -->
+<h1> You might also like </h1>
+<div class="row">
+    {% for prod in recc_prods %}
+    <div class="product-item">
+        <div class="pi-pic">
+            <img src="{{ prod.image.url }}" alt="">
+            <div class="pi-links">
+                <a href="{{ prod.get_absolute_url }}" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
+                <a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
+            </div>
         </div>
-        <div class='col-12 col-md-6'>
-            {% include 'products/snippets/update-cart.html' with product=object cart=cart%}
+        <div class="pi-text">
+            <h6>{{ prod.price }}</h6>
+            <p>{{ prod.title }}</p>
         </div>
+    </div>
+    {% endfor %}
 </div>
 
 {% endblock %}
