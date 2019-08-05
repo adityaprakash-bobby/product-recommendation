@@ -48,6 +48,10 @@ def product_list_view(request):
     }
     return render(request, "products/list.html", context)
 
+def recom(request):
+
+    return render(request, 'recom.html', {})
+
 class ProductDetailView(DetailView):
     # queryset = Product.objects.all()
     template_name = "products/detail.html"
@@ -109,8 +113,20 @@ class ProductDetailSlugView(DetailView):
         context = super(ProductDetailSlugView, self).get_context_data(*args, **kwargs)
         cart_obj, new_obj = Cart.objects.new_or_get(self.request)
         context['cart'] = cart_obj
-        test = [1, 15.3, "C", 8, "R", "WI", 1.5, 50000, "Programmer"]
+        # test = [1, 15.3, "C", 8, "R", "WI", 1.5, 50000, "Programmer"]
+        test = []
+        test.append(int(context['object'].warranty))
+        test.append(float(context['object'].screen_size))
+        test.append(context['object'].processor_alt)
+        test.append(int(context['object'].ram))
+        test.append(context['object'].gpu_alt)
+        test.append(context['object'].os_alt)
+        test.append(float(context['object'].weight))
+        test.append(float(context['object'].price))
+        test.append(context['object'].customer_type)
+        print(test)
         test_df = pd.DataFrame(test)
         label = recommend(test_df.T)
-        context['recc_prods'] = Product.objects.all()
+        print(label)
+        context['recc_prods'] = Product.objects.filter(label=label)
         return context

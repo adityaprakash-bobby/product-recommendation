@@ -59,12 +59,12 @@ class ProductManager(models.Manager):
         return self.get_queryset().active().search(query)
 
 class Product(models.Model):
-    
+    label           = models.IntegerField()
     title           = models.CharField(max_length=120)
     slug            = models.SlugField(blank=True, unique=True)
     warranty        = models.IntegerField()
     screen_size     = models.FloatField()
-    processor       = models.CharField(max_length=10)
+    processor       = models.CharField(max_length=20)
     processor_alt   = models.CharField(max_length=10)
     ram             = models.IntegerField()
     os              = models.CharField(max_length=20)

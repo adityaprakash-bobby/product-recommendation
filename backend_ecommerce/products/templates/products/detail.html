@@ -6,6 +6,10 @@
             <h1>{{ object.title }}</h1>
             {{ object.timestamp|timesince }} ago
             {{ object.processor|linebreaks }}<br/>
+            {{ object.os|linebreaks }}<br/>
+            {{ object.gpu|linebreaks }}<br/>
+            {{ object.screen_size|linebreaks }}<br/>
+            {{ object.price|linebreaks }}<br/>
             {% if object.image %}
                 <img src='{{ object.image.url }}' class='img-fluid' />
             {% endif %}
@@ -16,7 +20,7 @@
 </div>
 
 <!-- Product Recommendations according to previous searches -->
-<h1> You might also like </h1>
+<h2> You might also like </h2>
 <div class="row">
     {% for prod in recc_prods %}
     <div class="product-item">
@@ -27,12 +31,16 @@
                 <a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
             </div>
         </div>
-        <div class="pi-text">
-            <h6>{{ prod.price }}</h6>
-            <p>{{ prod.title }}</p>
+        <div>
+            <h6>{{ prod.title }}</h6>
+            <p>{{ prod.price }}</p>
         </div>
     </div>
     {% endfor %}
 </div>
-
+<br>
+<br>
+<br>
+<br><br>
+<br>
 {% endblock %}
