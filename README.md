@@ -22,7 +22,7 @@ python manage.py runserver
 ```
 #### Further improvements:
 - [ ] Revamp the UI
-- [ ] Add a task manager for the backend
+- [ ] Add a task queue for the backend
 - [ ] Add custom analytics
 - [ ] Implement adsense
 - [ ] Add recommendation based on ads
