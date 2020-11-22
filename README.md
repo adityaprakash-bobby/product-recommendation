@@ -4,7 +4,7 @@ This repo contains the source code for web application of the project "Improved 
 
 ```bash
 # Clone and setup the local dev server
-git clone https://github.com/adityaprakash-bobby/ecomm
+git clone https://github.com/adityaprakash-bobby/product-recommendation
 cd ecomm/
 python3 -m venv virtualenv
 . virtualenv/bin/activate
